@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "03-ENAR/index.html#motivation",
+    "href": "03-ENAR/index.html#motivation",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Motivation",
+    "text": "Motivation\n\n\n\n\n\n\n\n\n\nSource\n\n\n\n\n\n\n\nSource"
+  },
+  {
+    "objectID": "03-ENAR/index.html#outline",
+    "href": "03-ENAR/index.html#outline",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Outline",
+    "text": "Outline\n\n\n\nMotivation\nCSI: Wire Cuts\nWhat is the probability of a false positive?\nConclusions\n\n\nThis research is joint work with Heike Hofmann (Nebraska-Lincoln) and Alicia Carriquiry (Iowa State).\n\n\n\n\n\n    \nSlide Link"
+  },
+  {
+    "objectID": "03-ENAR/index.html#motivation-1",
+    "href": "03-ENAR/index.html#motivation-1",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Motivation",
+    "text": "Motivation\n\n\nAt trial, O’Neil testified that tools like the wire cutters found in Genrich’s residence were the only tools that could have been used to make the pipe bombs. “Agent O’Neil opined that the three of Mr. Genrich’s tools were the only tools in the world that could have made certain marks found on pieces from the four bombs,” Judge Gurley wrote in Monday’s opinion.\n\n\nO’Neil was asked specifically at trial what he meant by the phrase “to the exclusion of any other tool.” “That the individual jaw, the location within that jaw on that particular side, was identified as having cut the wire in question to a degree of certainty to exclude any other tool,” he said, according to court transcripts referenced in Gurley’s decision. O’Neil said this was true of needle-nosed pliers used on the bomb, slip-joint pliers, as well as the wire cutter.\n\n\nSource (emphasis added)"
+  },
+  {
+    "objectID": "03-ENAR/index.html#acknowledgements",
+    "href": "03-ENAR/index.html#acknowledgements",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nThis work was partially funded by the Center for Statistics and Applications in Forensic Evidence (CSAFE) through Cooperative Agreements 70NANB15H176 and 70NANB20H019 between NIST and Iowa State University, which includes activities carried out at Carnegie Mellon University, Duke University, University of California Irvine, University of Virginia, West Virginia University, University of Pennsylvania, Swarthmore College and University of Nebraska, Lincoln."
+  },
+  {
+    "objectID": "03-ENAR/index.html#learn-more",
+    "href": "03-ENAR/index.html#learn-more",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Learn More",
+    "text": "Learn More\n\n\n\n    \nPNAS Paper Link\n\nThis work was partially funded by the Center for Statistics and Applications in Forensic Evidence (CSAFE) through Cooperative Agreements 70NANB15H176 and 70NANB20H019 between NIST and Iowa State University, which includes activities carried out at Carnegie Mellon University, Duke University, University of California Irvine, University of Virginia, West Virginia University, University of Pennsylvania, Swarthmore College and University of Nebraska, Lincoln."
+  },
+  {
+    "objectID": "03-ENAR/index.html#questions",
+    "href": "03-ENAR/index.html#questions",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Questions?",
+    "text": "Questions?\n\n\n\n    \nPNAS Paper Link\n\nThis work was partially funded by the Center for Statistics and Applications in Forensic Evidence (CSAFE) through Cooperative Agreements 70NANB15H176 and 70NANB20H019 between NIST and Iowa State University, which includes activities carried out at Carnegie Mellon University, Duke University, University of California Irvine, University of Virginia, West Virginia University, University of Pennsylvania, Swarthmore College and University of Nebraska, Lincoln."
+  },
+  {
+    "objectID": "03-ENAR/index.html#motivation-2",
+    "href": "03-ENAR/index.html#motivation-2",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Motivation",
+    "text": "Motivation"
+  },
+  {
+    "objectID": "03-ENAR/index.html#personal-motivation",
+    "href": "03-ENAR/index.html#personal-motivation",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Personal Motivation",
+    "text": "Personal Motivation\n\nMy house has \\(\\approx\\) 982 cm of (easily accessible) blade surface which might be used to cut wires. Not shown: the craft room, the kitchen, and the garden shed. My dad’s shop has \\(\\approx\\) 2243 cm of blade surface. No one in either house is a professional craftsperson."
+  },
+  {
+    "objectID": "03-ENAR/index.html#csi-wire-cuts",
+    "href": "03-ENAR/index.html#csi-wire-cuts",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "CSI: Wire Cuts",
+    "text": "CSI: Wire Cuts\n\n\n\n\n\n\n\n\n\nCAT5 crimper with wire cutter\n\n\n\n\n\n\n\nCut wires\n\n\n\n\n\n\n\n\n\nDigital scan of blade cut and wire cut"
+  },
+  {
+    "objectID": "03-ENAR/index.html#examiner-method",
+    "href": "03-ENAR/index.html#examiner-method",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Examiner Method",
+    "text": "Examiner Method\n\n\nBetween 2 and 4 cutting surfaces for each tool, \\(s \\in \\{2, 4\\}\\)\nWires have 1-2 striated surfaces, \\(w \\in \\{1, 2\\}\\)"
+  },
+  {
+    "objectID": "03-ENAR/index.html#examiner-method-1",
+    "href": "03-ENAR/index.html#examiner-method-1",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Examiner Method",
+    "text": "Examiner Method\n\\[\\text{Total Comparisons} = \\sum_{i=1}^s \\sum_{j=1}^w N_{ij} \\approx w\\times s \\times \\frac{b}{d}\\] In our example,\n\n\\(b=15 mm\\) and \\(d = 2 mm\\) = 7.5 comparisons per side.\n\\(w \\approx 1\\), \\(s = 2\\) = 15 comparisons total"
+  },
+  {
+    "objectID": "03-ENAR/index.html#examiner-method-2",
+    "href": "03-ENAR/index.html#examiner-method-2",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Examiner Method",
+    "text": "Examiner Method\n\\[\\text{Total Comparisons} = \\sum_{i=1}^s \\sum_{j=1}^w N_{ij} \\approx w\\times s \\times \\frac{b}{d}\\] In our example,\n\n\\(b=15 mm\\) and \\(d = 2 mm\\) = 7.5 comparisons per side.\n\\(w \\approx 1\\), \\(s = 2\\) = 15 comparisons total"
+  },
+  {
+    "objectID": "03-ENAR/index.html#examiner-method-3",
+    "href": "03-ENAR/index.html#examiner-method-3",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Examiner Method",
+    "text": "Examiner Method"
+  },
+  {
+    "objectID": "03-ENAR/index.html#algorithmic-method",
+    "href": "03-ENAR/index.html#algorithmic-method",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Algorithmic Method",
+    "text": "Algorithmic Method\nScans -&gt; Cross Section -&gt; Signature (remove gross topology)\n\nCross-correlation is used to align signature from blade cut surface to signature from wire cut surface. Image credit: Heike Hofmann"
+  },
+  {
+    "objectID": "03-ENAR/index.html#visual-examination",
+    "href": "03-ENAR/index.html#visual-examination",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Visual Examination",
+    "text": "Visual Examination\n\nCompare sequential wire cuts or blade cuts to recovered wire\nExaminer uses a comparison microscope to see both cuts, aligns striae manually\nAt least \\(N_{ij} = b_i/d_j\\) comparisons for each blade surface \\(i\\) and cut wire surface \\(j\\)\nManual alignment means we can only estimate the minimum comparisons\n\n\nAdjacent comparisons are non-overlapping \\(\\Rightarrow\\) “independent”1\nThere are peak-valley dependence structures in profile data, but given tool/material/manufacturing, we would expect statistical independence between adjacent comparisons"
+  },
+  {
+    "objectID": "03-ENAR/index.html#algorithmic-method-1",
+    "href": "03-ENAR/index.html#algorithmic-method-1",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Algorithmic Method",
+    "text": "Algorithmic Method\nIn our example,\n\n\nMinimum\n\nblade size is \\(b=15 mm\\)\n\\(s = 2\\) cutting surfaces on the blade\nwire size is \\(d = 2 mm\\)\n\\(w = 1\\) cut surface on the wire\n\n7.5 comparisons per side\n15 comparisons for one tool + one cut wire\n\n\nMaximum\n\nblade size: \\(b = 15000\\) \\(\\mu\\!\\) m\n\\(s = 2\\) cutting surfaces on the blade\nwire size: \\(d = 2000\\) \\(\\mu\\!\\) m\n\\(w = 1\\) cut surface on the wire\nresolution: \\(r=0.645\\) \\(\\mu\\!\\) m/px\n20,156 comparisons per side\n40,312 comparisons total for alignment\n\n\nThis assumes there’s a single wire and a single possible tool."
+  },
+  {
+    "objectID": "03-ENAR/index.html#manual-algorithmic",
+    "href": "03-ENAR/index.html#manual-algorithmic",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Manual, Algorithmic, ???",
+    "text": "Manual, Algorithmic, ???\nThe true number of comparisons is almost certainly somewhere between 15 and 40,312\n\nExaminers manually shift and align objects in the comparison scope\n\nharder to count when adjustments are analog"
+  },
+  {
+    "objectID": "03-ENAR/index.html#number-of-comparisons",
+    "href": "03-ENAR/index.html#number-of-comparisons",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Number of Comparisons",
+    "text": "Number of Comparisons\nIn our example,\n\n\nMinimum\n\nblade size is \\(b=15 mm\\)\n\\(s = 2\\) cutting surfaces/blade\nwire size is \\(d = 2 mm\\)\n\\(w = 1\\) wire surfaces\n\n7.5 comparisons per side\n15 comparisons total\n\n\n\n\n\n\n\nImage by Tamasflex. Wikimedia. CC-A-SA.\n\n\n\n\n\n\nMaximum\n\nblade size: \\(b = 15000\\) \\(\\mu\\!\\) m\n\\(s = 2\\) cutting surfaces/blade\nwire size: \\(d = 2000\\) \\(\\mu\\!\\) m\n\\(w = 1\\) wire surfaces\nresolution: \\(r=0.645\\) \\(\\mu\\!\\) m/px\n20,156 comparisons per side\n40,312 comparisons total\n\n\nThis assumes there’s a single wire and a single possible tool."
+  },
+  {
+    "objectID": "03-ENAR/index.html#hidden-comparisons",
+    "href": "03-ENAR/index.html#hidden-comparisons",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Hidden Comparisons",
+    "text": "Hidden Comparisons\n\nWe accept that there’s a false positive error rate with any method\nAlignment produces hidden multiple comparisons\nThe standard wire comparison process produces many more comparisons\n\nmultiple angles\nmultiple substrate materials (sometimes)\nmultiple potential tools\n\nWires from crime scenes may be fragmented or damaged"
+  },
+  {
+    "objectID": "03-ENAR/index.html#so-how-bad-is-the-problem",
+    "href": "03-ENAR/index.html#so-how-bad-is-the-problem",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "So How Bad Is the Problem?",
+    "text": "So How Bad Is the Problem?\nFor error rate \\(e\\) and \\(n\\) comparisons\n\\[P(\\text{no false positive errors}) = 1 - \\left(1 - e\\right)^n\\]"
+  },
+  {
+    "objectID": "03-ENAR/index.html#so-how-bad-is-the-problem-1",
+    "href": "03-ENAR/index.html#so-how-bad-is-the-problem-1",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "So How Bad Is the Problem?",
+    "text": "So How Bad Is the Problem?\n\nEstimated false positive error rate for striated comparisons from bullets and firing pins: 0.45 - 7.24%.\n\nNot enough error rate studies on wires\nbullets have additional structure to facilitate alignment\n\n\nPooled estimate: 2%\n\nprobably an underestimate for wires"
+  },
+  {
+    "objectID": "03-ENAR/index.html#so-how-bad-is-the-problem-2",
+    "href": "03-ENAR/index.html#so-how-bad-is-the-problem-2",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "So How Bad Is the Problem?",
+    "text": "So How Bad Is the Problem?\nIf we want to ensure the family-wise false positive rate is under 10%…"
+  },
+  {
+    "objectID": "03-ENAR/index.html#conclusions",
+    "href": "03-ENAR/index.html#conclusions",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nWire cut forensics are problematic\n\n\nbut… this problem shows up in database searches, too!\n\nIAFIS (Integrated Automated Fingerprint ID System)\nNIBIN (Ballistics Database)\nNDIS (National DNA ID System) and CODIS (Combined DNA ID System)\nPDQ (Paint Data Query)\nFISH (Forensic ID System for Handwriting)"
+  },
+  {
+    "objectID": "03-ENAR/index.html#conclusions-1",
+    "href": "03-ENAR/index.html#conclusions-1",
+    "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nExaminers should report and Defense Attorneys should require\n\noverall length or area of surfaces generated during the examination process (\\(b\\))\ntotal consecutive length/area of recovered evidence (\\(d\\))\n\nStudies relating length/area of comparison surface to error rates are essential!\n\nNo available black-box error rate for wire cuts\nStudies should be difficult, like casework!\n\nAny database search used at any stage of the process should be disclosed along with\n\n\\(N\\) items in the database used for comparison\nNumber of results returned as ‘similar’ (top 20? top 5?)\nProtocols for confirmatory assessment"
+  }
+]
