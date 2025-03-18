@@ -1,0 +1,26 @@
+title: "Hidden Multiple Comparisons Increase Forensic Error Rates"
+author: "Susan Vanderplas"
+date: 2025-03-26
+from: markdown+emoji
+location: New Orleans, LA
+abstract: |
+  When wires are cut, the tool produces striations on the
+  cut surface; as in other forms of forensic analysis,
+  these striation marks are used to connect the evidence
+  to the source that created them. The practice of comparing
+  two wire cut surfaces introduces complexities not present
+  in better-investigated forensic examination of toolmarks
+  such as those observed on bullets, as wire comparisons
+  inherently require multiple distinct comparisons,
+  increasing the error rate. We call attention to this
+  multiple comparison problem in wire examination,
+  and relate it to other situations in forensics that
+  involve multiple comparisons, such as database searches.
+
+
+talk-type: ['invited']
+# One or more of seminar, web, invited, contributed, other
+
+image: TheNation20180226-Genrich.png
+
+keywords: ['template']

@@ -1,0 +1,262 @@
+---
+format: 
+  revealjs:
+    navigation-mode: vertical
+    logo: ../libs/unl/N.svg
+    theme: ../libs/unl/inverse.scss
+    includes:
+      in_header: ../libs/unl/header.html
+    lib_dir: libs
+width: 1600
+height: 900
+bibliography: refs.bib
+---
+
+## Outline
+::: columns
+
+::: {.column width="75%"}
+- Motivation
+
+- CSI: Wire Cuts
+
+- What is the probability of a false positive?
+
+- Conclusions
+
+::: {.absolute bottom=80}
+[This research is joint work with Heike Hofmann (Nebraska-Lincoln) and Alicia Carriquiry (Iowa State).]{.small}
+:::
+
+:::
+
+::: {.column width="25%"}
+
+::: {.center}
+{{< qrcode https://srvanderplas.github.io/2025-presentations/03-ENAR/ width=300 height=300 >}}
+
+Slide Link
+:::
+
+:::
+
+:::
+
+## Motivation 
+
+::: {layout-ncol=2}
+
+![[Source](https://www.thenation.com/article/archive/the-crisis-of-american-forensics/)](TheNation20180226-Genrich.png){fig-alt="A screenshot of an article by Meehan Crist and Tim Requarth from The Nation (Feb 26, 2018 issue). The title reads 'Forensic Science Put Jimmy Genrich in Prison for 24 Years. What if It Wasn’t Science?'. A mugshot is shown below the article title." height=750 width=auto}
+
+::: fragment
+![[Source](https://www.cpr.org/2023/07/10/judge-orders-new-trial-for-grand-junction-man-convicted-in-90s-pipe-bombings/)](CPR-new-trial.png){fig-alt="A Colorado Public Media story by Tom Hesse from July 10, 2023, titled 'Judge orders new trial for Grand Junction man convicted in '90s pipe bombings'. A picture of the Mesa County Justice Center is shown below the article title." height=750 width=auto}
+:::
+
+:::
+
+<!-- https://www.cpr.org/2023/07/10/judge-orders-new-trial-for-grand-junction-man-convicted-in-90s-pipe-bombings/ -->
+<!-- https://www.thenation.com/article/archive/the-crisis-of-american-forensics/ -->
+
+## Motivation 
+
+::: {.smaller}
+
+> At trial, O’Neil testified that tools like the wire cutters found in Genrich’s residence were the only tools that could have been used to make the pipe bombs.
+> “Agent O’Neil opined that the three of Mr. Genrich’s tools were the **only tools in the world that could have made certain marks found on pieces from the four bombs**,” Judge Gurley wrote in Monday's opinion.
+
+> O’Neil was asked specifically at trial what he meant by the phrase “to the exclusion of any other tool.”
+> “That the individual jaw, the location within that jaw on that particular side, was identified as having cut the wire in question to a degree of certainty to exclude any other tool,” he said, according to court transcripts referenced in Gurley’s decision.
+> O’Neil said this was **true of needle-nosed pliers used on the bomb, slip-joint pliers, as well as the wire cutter**. 
+:::
+
+[Source](https://www.cpr.org/2023/07/10/judge-orders-new-trial-for-grand-junction-man-convicted-in-90s-pipe-bombings/) (emphasis added)
+
+
+## CSI: Wire Cuts
+
+::: {layout=[[70,30],[100]] layout-valign="bottom"}
+
+![CAT5 crimper with wire cutter](wire_cutter.png)
+
+![Cut wires](razor_wire_cut_sizes_ann.png)
+
+![Digital scan of blade cut and wire cut](Blade-Wire-Cut-Scan-Render.png)
+:::
+
+## Examiner Method
+
+![](Surface_Counts.png)
+
+
+- Between 2 and 4 cutting surfaces for each tool, $s \in \{2, 4\}$
+
+- Wires have 1-2 striated surfaces, $w \in \{1, 2\}$
+
+
+## Visual Examination
+
+- Compare sequential wire cuts or blade cuts to recovered wire
+
+- Examiner uses a comparison microscope to see both cuts, aligns striae manually
+
+- At least $N_{ij} = b_i/d_j$ comparisons for each blade surface $i$ and cut wire surface $j$
+
+- Manual alignment means we can only estimate the minimum comparisons
+
+![](number of comparisons.svg){width="100%" fig-alt="A diagram showing a blade cut (long, thin) with striations compared to a wire cut (semi-circle shape, short) aligned with the blade cut. There are multiple non-overlapping positions along the blade cut where the wire cut could fit, and each is shown with an empty hemisphere."}
+
+Adjacent comparisons are non-overlapping $\Rightarrow$ "independent"^[There are peak-valley dependence structures in profile data, but given tool/material/manufacturing, we would **expect** statistical independence between adjacent comparisons]
+
+
+## Algorithmic Method
+
+Scans -> Cross Section -> Signature (remove gross topology)
+
+![Cross-correlation is used to align signature from blade cut surface to signature from wire cut surface. <br/>Image credit: Heike Hofmann](alignment-crop-sm.gif)
+
+
+
+## Number of Comparisons
+
+```{r}
+nc <- floor(15000/0.645 - 2000/0.645 + 1)
+Ncomp1 <- format(nc, big.mark=",")
+Ncomp2 <- format(nc*2, big.mark=",")
+```
+
+In our example, 
+
+::: columns
+
+::: {.column width="35%"}
+###### Minimum
+
+- blade size is $b=15 mm$
+- $s = 2$ cutting surfaces/blade
+- wire size is $d = 2 mm$
+- $w = 1$ wire surfaces    
+<br/>
+
+- 7.5 comparisons per side
+- 15 comparisons total
+
+:::
+::: {.column width="5%"}
+:::
+:::  {.column width="20%"}
+![[[Image by Tamasflex. Wikimedia. CC-A-SA. ](https://commons.wikimedia.org/wiki/File:ComparisonMicroscope.png)]{.tiny}](compare-scope.png){fig-alt="A comparison microscope, which has two microscopes with a single viewfinder, allowing the object from the first scope to be directly compared or aligned with the object from the second."}
+
+![](alignment-final.png){fig-alt="Aligned signature from blade and wire surface. Crop of previous gif"}
+
+:::
+
+::: {.column width="5%"}
+:::
+:::  {.column width="35%"}
+###### Maximum
+
+- blade size: $b = 15000$ $\mu\!$ m
+- $s = 2$ cutting surfaces/blade
+- wire size: $d = 2000$ $\mu\!$ m
+- $w = 1$ wire surfaces
+- resolution: $r=0.645$ $\mu\!$ m/px
+
+- `{r} Ncomp1` comparisons per side
+- `{r} Ncomp2` comparisons total
+
+:::
+
+:::
+
+This assumes there's a single wire and a single possible tool.
+
+
+## Hidden Comparisons
+
+- We accept that there's a false positive error rate with any method
+
+- Alignment produces hidden multiple comparisons
+
+- The standard wire comparison process produces *many* more comparisons
+
+    - multiple angles
+    
+    - multiple substrate materials (sometimes)
+    
+    - multiple potential tools
+
+- Wires from crime scenes may be fragmented or damaged
+
+## Personal Motivation
+
+![My house has $\approx$ 982 cm of (easily accessible) blade surface which might be used to cut wires. Not shown: the craft room, the kitchen, and the garden shed. My dad's shop has $\approx$ 2243 cm of blade surface. No one in either house is a professional craftsperson.](PXL_20250318_144704432.svg){fig-alt="An annotated picture of a messy garage, showing all of the tools which could conceivably make striated toolmarks, including visegrips, pliers, bolt cutters, pry bars, electrical tools, razor blades, hammers, tin snips, saws, and more."}
+
+
+## So How Bad Is the Problem?
+
+For error rate $e$ and $n$ comparisons
+
+$$P(\text{no false positive errors}) = 1 - \left(1 - e\right)^n$$ 
+
+
+## So How Bad Is the Problem?
+
+- Estimated false positive error rate for striated comparisons from bullets and firing pins: 0.45 - 7.24%. 
+
+  - Not enough error rate studies on wires
+  - bullets have additional structure to facilitate alignment
+  
+Pooled estimate: 2%
+
+  - probably an underestimate for wires
+
+
+
+## So How Bad Is the Problem?
+
+If we want to ensure the family-wise false positive rate is under 10%...
+
+![](table-fpr-family.png){fig-alt="A table showing the family wise false discovery rate for N comparisons using several different estimates of striated comparison error rates. When the FDR is 7%, over 50% of 10-comparison samples would be expected to have a false positive. When the FDR is 2%, over 18% of 10-comparison samples would be expected to have a false positive. Additional columns are provided giving the expected frequency of 100 and 1000 comparisons under different error rates. The final column provides the maximum number of comparisons at the specified error rate which can be performed to keep the family wise false positive error rate under 10%."}
+
+## Conclusions
+
+- Wire cut forensics are problematic
+
+::: fragment
+
+but... this problem shows up in database searches, too!
+
+- IAFIS (Integrated Automated Fingerprint ID System)
+- NIBIN (Ballistics Database)
+- NDIS (National DNA ID System) and CODIS (Combined DNA ID System)
+- PDQ (Paint Data Query)
+- FISH (Forensic ID System for Handwriting)
+
+:::
+
+## Conclusions
+
+- Examiners should report and Defense Attorneys should require
+
+  - overall length or area of surfaces generated during the examination process ($b$)
+  - total consecutive length/area of recovered evidence ($d$)
+
+- Studies relating length/area of comparison surface to error rates are essential!
+
+  - No available black-box error rate for wire cuts
+  - Studies should be difficult, like casework!
+  
+- Any database search used at any stage of the process should be disclosed along with
+  - $N$ items in the database used for comparison
+  - Number of results returned as 'similar' (top 20? top 5?)
+  - Protocols for confirmatory assessment
+
+## Questions?
+
+::: {.absolute bottom=80 right=650}
+{{< qrcode https://www.pnas.org/doi/full/10.1073/pnas.2401326121  width=300 height=300 >}}
+
+PNAS Paper Link
+:::
+
+[This work was partially funded by the Center for Statistics and Applications in Forensic Evidence (CSAFE) through Cooperative Agreements 70NANB15H176 and 70NANB20H019 between NIST and Iowa State University, which includes activities carried out at Carnegie Mellon University, Duke University, University of California Irvine, University of Virginia, West Virginia University, University of Pennsylvania, Swarthmore College and University of Nebraska, Lincoln.]{.smaller}
