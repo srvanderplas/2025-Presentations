@@ -236,6 +236,22 @@ but... this problem shows up in database searches, too!
 
 ## Conclusions
 
+::: incremental
+- Automatic intelligence algorithms are not a good substitute for investigative work
+
+- Example: Oregon
+  - 3 firearms examiners for the state
+  - Most firearms evidence run through NIBIN first
+  - Promising leads forwarded to examiners for manual assessment
+  
+:::
+
+[This is a setup that could generate false-positives by design!]{.cerulean .emph .fragment}
+
+## Conclusions
+
+::: incremental
+
 - Examiners should report and Defense Attorneys should require
 
   - overall length or area of surfaces generated during the examination process ($b$)
@@ -251,6 +267,29 @@ but... this problem shows up in database searches, too!
   - Number of results returned as 'similar' (top 20? top 5?)
   - Protocols for confirmatory assessment
 
+:::
+
+
+## Caveats
+
+- It is important to distinguish between **matching** algorithms and **intelligence** algorithms
+
+::: fragment
+- Matching algorithms compare the similarity of two pieces of evidence
+    - no database searches are involved
+    - algorithm may have a set of training data (different)
+
+:::
+
+
+::: fragment
+- Defense Attorneys should be familiar with protocols for evidence assessment in the jurisdiction
+  - What algorithms were used
+  - What databases were searched
+  - Were examiners provided with automatic database search results at the start?
+
+:::
+    
 ## Questions?
 
 ::: {.absolute bottom=80 right=650}

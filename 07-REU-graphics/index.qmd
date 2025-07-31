@@ -82,7 +82,8 @@ Good graphics also depend on the data: the chart type should be chosen based on 
 
 ## Example: Hertzsprung Russell Diagram {.r-fit-text}
 
-```{r HR-diagram}
+```{r}
+#| label: HR-diagram
 #| fig-width: 8
 #| fig-height: 5
 #| out-width: "100%"
@@ -161,7 +162,7 @@ John Tukey, a famous statistician often considered the father of statistical gra
 
     -   Double-encoding (using multiple features for the same variable) is ok
 
-```{r preattentive1}
+```{r}
 #| echo: false
 #| fig-width: 4
 #| fig-height: 4
@@ -208,7 +209,7 @@ ggplot(data=data, aes(x=x, y=y, color=factor(shape), shape=I(19), size=I(5)))+
 
     -   Double-encoding (using multiple features for the same variable) is ok
     
-```{r preattentive2}
+```{r}
 #| echo: false
 #| fig-width: 4
 #| fig-height: 4
@@ -269,7 +270,7 @@ ggplot(data=data, aes(x=x, y=y,
 
 ## Grouping in Charts
 
-```{r chart-emphasis-r}
+```{r}
 #| label: chart-emphasis-r
 #| fig-width: 6
 #| fig-height: 4
