@@ -1,0 +1,96 @@
+---
+format: 
+  revealjs:
+    navigation-mode: vertical
+    logo: ../libs/unl/N.svg
+    theme: ../libs/unl/inverse.scss
+    includes:
+      in_header: ../libs/unl/header.html
+    lib_dir: libs
+    embed-resources: true
+---
+
+
+## In the beginning... Spring 2020 🕰️
+
+Teaching Computing Tools for Statistics (Grad) in Fall
+
+::: incremental
+
+- I have to teach R AND SAS?
+  - Oh :poop:, I have to learn SAS
+
+- Fall 2020 uncertainty ☣️🦠😷
+  - Flipped classroom = more flexibility? 🤞
+
+- Outside-class material: Videos or book(s)?
+
+  - What book is the SAS equivalent of R4DS?
+
+:::
+
+::: fragment
+
+[🤔 Writing a textbook is better than editing videos!]{.cerulean .emph} 
+
+![](https://upload.wikimedia.org/wiktionary/en/1/1a/Galaxy_brain.jpg){fig-alt="Galaxy Brain meme"  .absolute bottom=10 right=0 width=20%}
+
+:::
+
+
+## Initial Philosophy
+
+::: incremental
+
+- Include all of the bad jokes, comics, and digressions from lectures
+
+- Show the same techniques in both languages 
+  - focus on the operation, not syntax
+  
+- Center importance of reproducibility (`SASMarkdown` package saved me)
+
+- Opinionated Tool Selection
+
+:::
+
+::: notes
+Attention-getting analogies like "git : Github :: porn : Pornhub" -- e.g. not every git repository is on github, just like not all porn is on Pornhub. 
+
+Also XKCD comics, Alison Horst drawings, and stories from grad school about how `knitr` came to exist because of a disastrous lecture where Yihui was substituting for Heike Hofmann and absolutely nothing in Sweave would work correctly. 
+
+I wanted to show the same techniques in both languages. This worked ok when I was teaching recoding and pivoting, but it was much more challenging to find IML functions for much of the rest of the tidyverse. Also, SAS's  philosophy is so different from R.
+
+When I started figuring out how to use SAS, I was most worried about losing my basic workflow of doing all of my course materials in markdown. Luckily, I found the SASmarkdown package, and it worked well enough that I could use it in bookdown.
+
+I also decided to be more opinionated about certain parts of the toolbox I was teaching students to use. I did not explicitly trash talk SAS in the book or in class, but I did make one exception. I decided to tell students directly that the best way to create good graphics in SAS is to export the data and make the chart in R. I stand by that claim. 
+:::
+
+## In Practice
+
+- Students with a non-English dominant language vastly preferred the textbook to lectures
+
+- Some students had to spend much more time outside of class than others
+
+- Overall, a reasonable success!
+
+## Spring 2021-22
+
+- Assigned to develop new undergraduate computing courses in Spring 2022
+    - in R and Python :snake:
+    - Oh :poop:, I have to *finally*, **actually** learn Python 😱
+
+- Start translating the graduate text into undergraduate sized chunks
+
+- Add Python 😬, Remove SAS 😌
+
+- Maintaining two textbooks is hard work!
+
+::: notes
+
+Immediately after that first semester, I learned I would be developing the computing sequence for our new undergraduate major. 
+
+We'd previously agreed that the undergraduates would need Python exposure -- to take CS classes, but also to get internships and to be prepared for any possible direction the computing language du jour might go. 
+
+The only problem was I didn't know Python... I'd done a few web scraping bits in it, but that was many years prior. Python had been on my to-learn list for about a decade at that point, so I suppose this was good motivation to finally learn it.
+
+I also needed to make far fewer assumptions about students computing background. 
