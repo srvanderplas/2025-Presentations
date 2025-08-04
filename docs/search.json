@@ -11,14 +11,14 @@
     "href": "08-JSM/index.html#outline",
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
     "section": "Outline",
-    "text": "Outline\n\n\n\nMotivation\nCSI: Wire Cuts\nWhat is the probability of a false positive?\nConclusions\n\n\nThis research is joint work with Heike Hofmann (Nebraska-Lincoln) and Alicia Carriquiry (Iowa State).\n\n\n\n\n\n    \nSlide Link"
+    "text": "Outline\n\n\n\nMotivation\nCSI: Wire Cuts\nWhat is the probability of a false positive?\nConclusions\n\n\nThis research is joint work with Heike Hofmann (Nebraska-Lincoln) and Alicia Carriquiry (Iowa State).\n\n\n\n\n\n    \nSlides Link"
   },
   {
     "objectID": "08-JSM/index.html#motivation",
     "href": "08-JSM/index.html#motivation",
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
     "section": "Motivation",
-    "text": "Motivation\n\n\n\n\n\n\nSource\n\n\n\n\n\n\n\nSource"
+    "text": "Motivation\n\n\n\n\n\n\n\n\n\nSource\n\n\n\n\n\n\n\nSource"
   },
   {
     "objectID": "08-JSM/index.html#motivation-1",
@@ -32,7 +32,7 @@
     "href": "08-JSM/index.html#csi-wire-cuts",
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
     "section": "CSI: Wire Cuts",
-    "text": "CSI: Wire Cuts\n\n\n\n\n\n\nCAT5 crimper with wire cutter\n\n\n\n\n\n\n\nCut wires\n\n\n\n\n\n\n\n\n\nDigital scan of blade cut and wire cut"
+    "text": "CSI: Wire Cuts\n\n\n\n\n\n\n\n\n\nCAT5 crimper with wire cutter\n\n\n\n\n\n\n\nCut wires\n\n\n\n\n\n\n\n\n\nDigital scan of blade cut and wire cut"
   },
   {
     "objectID": "08-JSM/index.html#examiner-method",
@@ -109,14 +109,14 @@
     "href": "08-JSM/index.html#conclusions-1",
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
     "section": "Conclusions",
-    "text": "Conclusions\n\nAutomatic intelligence algorithms are not a good substitute for investigative work\nExample: Oregon\n\n3 firearms examiners for the state\nMost firearms evidence run through NIBIN first\nPromising leads forwarded to examiners for manual assessment\n\n\nThis is a setup that could generate false-positives by design!"
+    "text": "Conclusions\n\n\nAutomatic intelligence algorithms are not a good substitute for investigative work\nExample: Oregon\n\n3 firearms examiners for the state\nMost firearms evidence run through NIBIN first\nPromising leads forwarded to examiners for manual assessment\n\n\n\nThis is a setup that could generate false-positives by design!"
   },
   {
     "objectID": "08-JSM/index.html#conclusions-2",
     "href": "08-JSM/index.html#conclusions-2",
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
     "section": "Conclusions",
-    "text": "Conclusions\n\nExaminers should report and Defense Attorneys should require\n\noverall length or area of surfaces generated during the examination process (\\(b\\))\ntotal consecutive length/area of recovered evidence (\\(d\\))\n\nStudies relating length/area of comparison surface to error rates are essential!\n\nNo available black-box error rate for wire cuts\nStudies should be difficult, like casework!\n\nAny database search used at any stage of the process should be disclosed along with\n\n\\(N\\) items in the database used for comparison\nNumber of results returned as ‘similar’ (top 20? top 5?)\nProtocols for confirmatory assessment"
+    "text": "Conclusions\n\n\nExaminers should report and Defense Attorneys should require\n\noverall length or area of surfaces generated during the examination process (\\(b\\))\ntotal consecutive length/area of recovered evidence (\\(d\\))\n\nStudies relating length/area of comparison surface to error rates are essential!\n\nNo available black-box error rate for wire cuts\nStudies should be difficult, like casework!\n\nAny database search used at any stage of the process should be disclosed along with\n\n\\(N\\) items in the database used for comparison\nNumber of results returned as ‘similar’ (top 20? top 5?)\nProtocols for confirmatory assessment"
   },
   {
     "objectID": "08-JSM/index.html#caveats",

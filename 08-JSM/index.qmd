@@ -33,9 +33,9 @@ bibliography: refs.bib
 ::: {.column width="25%"}
 
 ::: {.center}
-{{< qrcode https://srvanderplas.github.io/2025-presentations/03-ENAR/ width=300 height=300 >}}
+{{< qrcode https://srvanderplas.github.io/2025-presentations/08-JSM/ width=300 height=300 >}}
 
-Slide Link
+Slides Link
 :::
 
 :::
