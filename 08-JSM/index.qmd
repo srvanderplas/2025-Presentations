@@ -208,7 +208,7 @@ $$P(\text{no false positive errors}) = 1 - \left(1 - e\right)^n$$
   
 Pooled estimate: 2%
 
-  - probably an underestimate for wires
+  - probably an underestimate for wires (shorter striae sequences, more dependence on angle)
 
 
 
