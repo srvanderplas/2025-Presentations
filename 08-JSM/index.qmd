@@ -189,7 +189,7 @@ This assumes there's a single wire and a single possible tool.
 
 ## Personal Motivation
 
-![My house has $\approx$ 982 cm of (easily accessible) blade surface which might be used to cut wires. Not shown: the craft room, the kitchen, and the garden shed. My dad's shop has $\approx$ 2243 cm of blade surface. No one in either house is a professional craftsperson.](PXL_20250318_144704432.svg){fig-alt="An annotated picture of a messy garage, showing all of the tools which could conceivably make striated toolmarks, including visegrips, pliers, bolt cutters, pry bars, electrical tools, razor blades, hammers, tin snips, saws, and more."}
+![My house has $\approx$ 982 cm of (easily accessible) blade surface which might be used to cut wires. Not shown: the craft room, the kitchen, and the garden shed. My dad's shop has $\approx$ 2243 cm of blade surface. No one in either house is a professional craftsperson.](Shop-annotated.png){fig-alt="An annotated picture of a messy garage, showing all of the tools which could conceivably make striated toolmarks, including visegrips, pliers, bolt cutters, pry bars, electrical tools, razor blades, hammers, tin snips, saws, and more."}
 
 
 ## So How Bad Is the Problem?
