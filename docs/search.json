@@ -355,5 +355,54 @@
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
     "section": "Questions?",
     "text": "Questions?\n\n\n\n    \nPNAS Paper Link\n\nThis work was partially funded by the Center for Statistics and Applications in Forensic Evidence (CSAFE) through Cooperative Agreements 70NANB15H176 and 70NANB20H019 between NIST and Iowa State University, which includes activities carried out at Carnegie Mellon University, Duke University, University of California Irvine, University of Virginia, West Virginia University, University of Pennsylvania, Swarthmore College and University of Nebraska, Lincoln."
+  },
+  {
+    "objectID": "08-useR/index.html#in-the-beginning",
+    "href": "08-useR/index.html#in-the-beginning",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "In the beginning…",
+    "text": "In the beginning…\n\n\nI have to teach R AND SAS?\n\nOh 💩, I have to learn SAS\n\nFall 2020 uncertainty ☣️🦠😷\n\nFlipped classroom = more flexibility? 🤞\n\nOutside-class material: Videos or book(s)?\n\nWhat book is the SAS equivalent of R4DS?\n\n\n\nWriting a textbook is easier than editing videos, right?"
+  },
+  {
+    "objectID": "08-useR/index.html#in-the-beginning-spring-2020",
+    "href": "08-useR/index.html#in-the-beginning-spring-2020",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "In the beginning… Spring 2020 🕰️",
+    "text": "In the beginning… Spring 2020 🕰️\nTeaching Computing Tools for Statistics (Grad) in Fall\n\n\nI have to teach R AND SAS?\n\nOh 💩, I have to learn SAS\n\nFall 2020 uncertainty ☣️🦠😷\n\nFlipped classroom = more flexibility? 🤞\n\nOutside-class material: Videos or book(s)?\n\nWhat book is the SAS equivalent of R4DS?\n\n\n\n\n🤔 Writing a textbook is better than editing videos!"
+  },
+  {
+    "objectID": "08-useR/index.html#initial-philosophy",
+    "href": "08-useR/index.html#initial-philosophy",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Initial Philosophy",
+    "text": "Initial Philosophy\n\n\nInclude all of the bad jokes, comics, and digressions from lectures\nShow the same techniques in both languages\n\nfocus on the operation, not syntax\n\nCenter importance of reproducibility (SASMarkdown package saved me)\nOpinionated Tool Selection\n\n\n\nAttention-getting analogies like “git : Github :: porn : Pornhub” – e.g. not every git repository is on github, just like not all porn is on Pornhub.\nAlso XKCD comics, Alison Horst drawings, and stories from grad school about how knitr came to exist because of a disastrous lecture where Yihui was substituting for Heike Hofmann and absolutely nothing in Sweave would work correctly.\nI wanted to show the same techniques in both languages. This worked ok when I was teaching recoding and pivoting, but it was much more challenging to find IML functions for much of the rest of the tidyverse. Also, SAS’s philosophy is so different from R.\nWhen I started figuring out how to use SAS, I was most worried about losing my basic workflow of doing all of my course materials in markdown. Luckily, I found the SASmarkdown package, and it worked well enough that I could use it in bookdown.\nI also decided to be more opinionated about certain parts of the toolbox I was teaching students to use. I did not explicitly trash talk SAS in the book or in class, but I did make one exception. I decided to tell students directly that the best way to create good graphics in SAS is to export the data and make the chart in R. I stand by that claim."
+  },
+  {
+    "objectID": "08-useR/index.html#in-practice",
+    "href": "08-useR/index.html#in-practice",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "In Practice",
+    "text": "In Practice\n\nStudents with a non-English dominant language vastly preferred the textbook to lectures\nSome students had to spend much more time outside of class than others\nOverall, a reasonable success!"
+  },
+  {
+    "objectID": "08-useR/index.html#spring-2021",
+    "href": "08-useR/index.html#spring-2021",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Spring 2021",
+    "text": "Spring 2021\n\nAssigned to develop new undergraduate computing courses in Spring 2022\n\nin R and Python 🐍\nOh 💩, I have to finally, actually learn Python 😱"
+  },
+  {
+    "objectID": "08-useR/index.html#spring-2021-22",
+    "href": "08-useR/index.html#spring-2021-22",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Spring 2021-22",
+    "text": "Spring 2021-22\n\nAssigned to develop new undergraduate computing courses in Spring 2022\n\nin R and Python 🐍\nOh 💩, I have to finally, actually learn Python 😱\n\nStart translating the graduate text into undergraduate sized chunks\nAdd Python 😬, Remove SAS 😌\nMaintaining two textbooks is hard work!\n\n\nImmediately after that first semester, I learned I would be developing the computing sequence for our new undergraduate major.\nWe’d previously agreed that the undergraduates would need Python exposure – to take CS classes, but also to get internships and to be prepared for any possible direction the computing language du jour might go.\nThe only problem was I didn’t know Python… I’d done a few web scraping bits in it, but that was many years prior. Python had been on my to-learn list for about a decade at that point, so I suppose this was good motivation to finally learn it.\nI also needed to make far fewer assumptions about students computing background. Graduate students will make up material that undergrads won’t."
+  },
+  {
+    "objectID": "08-useR/index.html#summer-2022---quarto",
+    "href": "08-useR/index.html#summer-2022---quarto",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Summer 2022 - Quarto!",
+    "text": "Summer 2022 - Quarto!\n\nPlan: Combine the textbooks\n\nmultiple chapters/wk for grad students 📚\nsingle chapter/wk for undergrads 📗\nOnly maintain one version 🥱\n\nConvert to Quarto\nMake use of tabset panels 😍\n\n\nRPython\n\n\n\n# R code\n\n\n\n\n# Python code"
   }
 ]

@@ -63,6 +63,7 @@ I wanted to show the same techniques in both languages. This worked ok when I wa
 When I started figuring out how to use SAS, I was most worried about losing my basic workflow of doing all of my course materials in markdown. Luckily, I found the SASmarkdown package, and it worked well enough that I could use it in bookdown.
 
 I also decided to be more opinionated about certain parts of the toolbox I was teaching students to use. I did not explicitly trash talk SAS in the book or in class, but I did make one exception. I decided to tell students directly that the best way to create good graphics in SAS is to export the data and make the chart in R. I stand by that claim. 
+
 :::
 
 ## In Practice
@@ -94,3 +95,34 @@ We'd previously agreed that the undergraduates would need Python exposure -- to 
 The only problem was I didn't know Python... I'd done a few web scraping bits in it, but that was many years prior. Python had been on my to-learn list for about a decade at that point, so I suppose this was good motivation to finally learn it.
 
 I also needed to make far fewer assumptions about students computing background. 
+Graduate students will make up material that undergrads won't. 
+
+:::
+
+
+## Summer 2022 - Quarto!
+
+- Plan: Combine the textbooks
+  - multiple chapters/wk for grad students 📚
+  - single chapter/wk for undergrads 📗
+  - Only maintain one version 🥱
+  
+- Convert to Quarto
+- Make use of tabset panels 😍
+
+::: panel-tabset
+
+### R 
+```{r}
+#| echo: true
+# R code
+```
+
+### Python
+```{python}
+#| echo: true
+# Python code
+```
+
+:::
+
