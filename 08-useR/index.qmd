@@ -1,6 +1,7 @@
 ---
 format: 
   revealjs:
+    incremental: true   
     navigation-mode: vertical
     logo: ../libs/unl/N.svg
     theme: ../libs/unl/inverse.scss
@@ -13,6 +14,8 @@ format:
 
 ## Outline
 
+::: {.nonincremental}
+
 - How to accidentally write a textbook
 
 - Design Decisions
@@ -21,6 +24,7 @@ format:
 
 - Conclusions
 
+:::
 
 ::: {layout-ncol=2}
 
@@ -39,7 +43,9 @@ Slides Link
 :::
 
 
-# How to Accidentally Write A Textbook
+# How to Accidentally<br/>Write A Textbook {.emph .center}
+
+![](bob-ross-painting.gif){fig-alt="A gif of Bob Ross painting and saying 'We don't make mistakes - we just have happy accidents." width="80%" fig-align="center"}
 
 ## In the beginning... Spring 2020 🕰️
 
@@ -59,21 +65,25 @@ Teaching Computing Tools for Statistics (Grad) in Fall
 
 :::
 
-::: fragment
+---
 
-[🤔 Writing a textbook is better than editing videos!]{.cerulean .emph} 
+[🤔 Writing a textbook > editing videos, right?]{.cerulean .emph .large} 
 
-![](https://upload.wikimedia.org/wiktionary/en/1/1a/Galaxy_brain.jpg){fig-alt="Galaxy Brain meme"  .absolute bottom=10 right=0 width=20%}
+![](https://upload.wikimedia.org/wiktionary/en/1/1a/Galaxy_brain.jpg){fig-alt="Galaxy Brain meme"}
 
-:::
+---
+
+![My 2020 world-on-fire coping mechanism](insane-furious.gif){fig-alt="Gif of Kermit the Frog typing furiously on a typewriter" width="100%"}
+
+
 
 ## Spring 2021-22
 
 - Assigned to develop new undergraduate computing courses in Spring 2022
     - in R and Python :snake:
-    - Oh :poop:, I have to *finally*, **actually** learn Python 😱
+    - Oh :poop:, I have to learn Python 😱
 
-- Start translating the graduate text into undergraduate sized chunks
+- New book w/ grad text in undergrad-sized chunks
 
 - Add Python 😬, Remove SAS 😌
 
@@ -103,6 +113,7 @@ Graduate students will make up material that undergrads won't.
 - Convert to Quarto
 - Make use of tabset panels 😍
 
+::: fragment
 ::: panel-tabset
 
 ### R 
@@ -118,23 +129,27 @@ Graduate students will make up material that undergrads won't.
 ```
 
 :::
+:::
 
 ## Since Summer 2022
 
-- Add chapters covering additional undergraduate computing courses
+- Add chapters for additional undergrad computing courses
 
-- Update chapters based on student questions, package updates, etc.
+- Update chapters: clarity, package updates, etc.
 
-- This summer: Title II compatibility checks and graduate student editing
+- This summer: 
+  - Title II compatibility checks
+  - Graduate student editing
+  - New chapters - advanced stat computing
 
 
-# Design Decisions
+# [Design Decisions]{.emph}
 
 ## Initial Philosophy
 
 ::: incremental
 
-- Include all of the bad jokes, comics, and digressions from lectures
+- Include all of the bad jokes 😜, comics 💬, and digressions 🐇 from lectures
 
 - GIFs can explain better than words (sometimes)
 
@@ -142,7 +157,7 @@ Graduate students will make up material that undergrads won't.
   - focus on the operation, not syntax
   
 - Center importance of reproducibility    
-(with SAS? `SASMarkdown`)
+(with SAS? 😅 `SASMarkdown`)
 
 - Opinionated Tool Selection
 
@@ -262,8 +277,10 @@ myfun()
 ## In Practice
 
 - Students with a non-English dominant language vastly preferred the textbook to lectures
-
-- Some students had to spend much more time outside of class than others
+  - Sometimes supplemented with R4DS translations :heart:
+  
+- Some students had to spend much more time outside of class
+  - But, they would have been lost in a lecture-format class
 
 - Reading quizzes are essential to remind students to look at the book before class
 
@@ -280,13 +297,29 @@ myfun()
 
 ## How?
 
-- Assignments ask for basic tasks in both languages
+- Assignments
+  - basic tasks in both languages
+  - harder tasks -- pick a language
+  - Bonus points (sometimes) for using both languages
 
-- Harder tasks -- pick the best/easiest language for the task
+- 2 Languages keep advanced students engaged    
+Others focus on mastering one language + concepts
 
-- Bonus points (sometimes) for doing the task in both languages
+- Exams
+  - Use either language for code
+  - Focus on concepts/sketching/planning
+  
+## Student Reactions
 
-- 2 Languages keep more computationally advanced students engaged    
-Students with less experience focus on mastering one of the languages
+- Initial frustration - syntax is hard in one language!
 
-- Exams -- any language for code, focus on concepts/sketching/planning
+  - Plus quarto, markdown, git... it's a lot!
+
+- Motivation: internships and experience
+
+- Some appreciation for learning "why", not "what" to do
+
+- Textbook helps anchor concepts (visual memory)
+
+- Students like being able to comment via giscus
+    - Adventurous students submit PRs to fix typos
