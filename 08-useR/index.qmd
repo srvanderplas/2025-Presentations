@@ -360,4 +360,15 @@ Others focus on mastering one language + concepts
 
 :::
 
+## Important Sources
+
+- Allison Horst's *amazing* artwork
+- comics - XKCD and Julia Evans
+- R for Data Science
+- Advanced R
+- Git and GitHub for the useR - Jenny Bryan
+- [Python for Everyone](https://www.py4e.com/) -  Charles Severance
+- Python for Data Analysis - Wes McKinney
+- Python Data Science Handbook - Jake Vanderplas
+
 # [Questions?]{.emph}

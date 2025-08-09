@@ -523,5 +523,12 @@
     "title": "Teaching Statistical Computing with R and Python",
     "section": "Other Cool Stuff I’d love to get to",
     "text": "Other Cool Stuff I’d love to get to\n\n\nwebR and PyScript integration\n\nAllow direct interactivity instead of just showing code + solutions\n\nAudiobook format with quarto.audiobook (2024 GSoC Project)\nUsing JavaScript to create a TL;DR switch\n\nhide long explanations\nfocus on the basic info\nreduce info overload 😵‍💫 ️🏋️‍♀️"
+  },
+  {
+    "objectID": "08-useR/index.html#important-sources",
+    "href": "08-useR/index.html#important-sources",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Important Sources",
+    "text": "Important Sources\n\nAllison Horst’s amazing artwork\ncomics - XKCD and Julia Evans\nR for Data Science\nAdvanced R\nGit and GitHub for the useR - Jenny Bryan\nPython for Everyone - Charles Severance\nPython for Data Analysis - Wes McKinney\nPython Data Science Handbook - Jake Vanderplas"
   }
 ]
