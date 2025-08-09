@@ -181,7 +181,7 @@ I also decided to be more opinionated about certain parts of the toolbox I was t
 
 ## Sketchy Diagrams
 
-::: {layout-ncol=2}
+::: {layout="[60,40]"}
 
 ![](https://srvanderplas.github.io/stat-computing-r-python/images/gen-prog/Annotating_function_syntax.png)
 
@@ -217,7 +217,7 @@ myfun()
 
 ##### Sketch {-}
 
-![The state of the global environment at the time the function is called (that is, the state of the calling environment) can change the results of the function](function-scope-calling-environment.png)
+![The state of the global environment at the time the function is called (that is, the state of the calling environment) can change the results of the function](function-scope-calling-environment.png){width="30%"}
 
 
 ##### R {-}
@@ -363,10 +363,18 @@ Others focus on mastering one language + concepts
 
 :::
 
-## Important Sources
+# [Wrapping Up]{.emph}
+
+## Important Sources {.smaller}
+::: columns
+::: {.column width="70%"}
+::: {.nonincremental}
 
 - Allison Horst's *amazing* artwork
 - comics - XKCD and Julia Evans
+
+Books
+
 - R for Data Science
 - Advanced R
 - Git and GitHub for the useR - Jenny Bryan
@@ -374,4 +382,12 @@ Others focus on mastering one language + concepts
 - Python for Data Analysis - Wes McKinney
 - Python Data Science Handbook - Jake Vanderplas
 
-# [Questions?]{.emph}
+:::
+:::
+::: {.column width="30%"}
+![Image by Allison Horst. [Source](https://allisonhorst.com/everything-else)](support.png)
+
+:::
+:::
+
+## [Questions?]{.emph}
