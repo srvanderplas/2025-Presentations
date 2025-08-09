@@ -248,8 +248,8 @@
     "objectID": "08-useR/index.html#in-the-beginning-spring-2020",
     "href": "08-useR/index.html#in-the-beginning-spring-2020",
     "title": "Teaching Statistical Computing with R and Python",
-    "section": "In the beginning… Spring 2020 🕰️",
-    "text": "In the beginning… Spring 2020 🕰️\nTeaching Computing Tools for Statistics (Grad) in Fall\n\n\nI have to teach R AND SAS?\n\nOh 💩, I have to learn SAS\n\nFall 2020 uncertainty ☣️🦠😷\n\nFlipped classroom = more flexibility? 🤞\n\nOutside-class material: Videos or book(s)?\n\nWhat book is the SAS equivalent of R4DS?"
+    "section": "In the beginning… Spring 2020 ⛈️🌏",
+    "text": "In the beginning… Spring 2020 ⛈️🌏\nTeaching Computing Tools for Statistics (Grad) in Fall\n\n\nI have to teach R AND SAS?\n\nOh 💩, I have to learn SAS\n\nFall 2020 uncertainty ☣️🦠😷\n\nFlipped classroom = more flexibility? 🤞\n\nOutside-class material: Videos or book(s)?\n\nWhat book is the SAS equivalent of R4DS?"
   },
   {
     "objectID": "08-useR/index.html#initial-philosophy",
@@ -263,7 +263,7 @@
     "href": "08-useR/index.html#in-practice",
     "title": "Teaching Statistical Computing with R and Python",
     "section": "In Practice",
-    "text": "In Practice\n\nStudents with a non-English dominant language vastly preferred the textbook to lectures\n\nSometimes supplemented with R4DS translations ❤️\n\nSome students had to spend much more time outside of class\n\nBut, they would have been lost in a lecture-format class\n\nReading quizzes are essential to remind students to look at the book before class\n\nOverall, a reasonable success!"
+    "text": "In Practice\n\nStudents with a non-English dominant language vastly preferred the textbook to lectures\n\nSometimes supplemented with R4DS translations ❤️\n\nSome spend way more time outside of class ⏲️\n\nBut, they would have been lost in a lecture-format class\n\nReading quizzes are essential to remind students to look at the book before class\n\nNot a universally successful motivator\n\n\nOverall, a reasonable success!"
   },
   {
     "objectID": "08-useR/index.html#spring-2021-22",
@@ -416,8 +416,8 @@
     "objectID": "08-useR/index.html#information-overload",
     "href": "08-useR/index.html#information-overload",
     "title": "Teaching Statistical Computing with R and Python",
-    "section": "Information Overload",
-    "text": "Information Overload\n\nBalance between amount of code/output and centering important content"
+    "section": "Information Overload 🤯🫣",
+    "text": "Information Overload 🤯🫣\n\nIt’s hard to strike a balance between\n\namount of code/output\ncentering important content"
   },
   {
     "objectID": "08-useR/index.html#sketchy-diagrams",
@@ -438,28 +438,28 @@
     "href": "08-useR/index.html#additional-reproducibility",
     "title": "Teaching Statistical Computing with R and Python",
     "section": "Additional Reproducibility",
-    "text": "Additional Reproducibility\n\nWithout SAS, build the textbook via GitHub Actions?\n\nLOTS of package deps in R and python 😱😵‍💫\nBetter reproducibility, more of a pain in the 🍑\nDependency caching is a lifesaver (most of the time)"
+    "text": "Additional Reproducibility\n\nWithout SAS, 👼👿\nbuild the textbook via GitHub Actions?\n\nLOTS of package deps in R and python 😱😵‍💫\nBetter reproducibility, more of a pain in the 🍑\nDependency caching is a lifesaver (most of the time)"
   },
   {
     "objectID": "08-useR/index.html#why",
     "href": "08-useR/index.html#why",
     "title": "Teaching Statistical Computing with R and Python",
     "section": "Why?",
-    "text": "Why?\n\nStudents need to learn the concepts (look up syntax)\nData science/stat languages change! (Julia? JavaScript? Python? Ruby?)\nCritical Skills:\n\nReading & understanding documentation\nKnowing how to look for help (google-fu)"
+    "text": "Why?\n\n🔬 Focus on concepts (look up syntax 🔍)\nData science/stat languages change! (Julia? JavaScript? Python? Ruby?)\nCritical Skills:\n\n📖 Reading & 🧠 understanding documentation\nKnowing how to look for help 🆘"
   },
   {
     "objectID": "08-useR/index.html#how",
     "href": "08-useR/index.html#how",
     "title": "Teaching Statistical Computing with R and Python",
     "section": "How?",
-    "text": "How?\n\nAssignments\n\nbasic tasks in both languages\nharder tasks – pick a language\nBonus points (sometimes) for using both languages\n\n2 Languages keep advanced students engaged\nOthers focus on mastering one language + concepts\nExams\n\nUse either language for code\nFocus on concepts/sketching/planning"
+    "text": "How?\n\nAssignments\n\nbasic tasks in both languages 👶\nharder tasks 🧑 – pick a language\nBonus points (sometimes) for using both languages 🧑‍🦳\n\n2 Languages keep advanced students engaged\nOthers focus on mastering one language + concepts\nExams\n\nUse either language for code\nFocus on concepts/sketching/planning"
   },
   {
     "objectID": "08-useR/index.html#student-reactions",
     "href": "08-useR/index.html#student-reactions",
     "title": "Teaching Statistical Computing with R and Python",
     "section": "Student Reactions",
-    "text": "Student Reactions\n\nInitial frustration - syntax is hard in one language!\n\nPlus quarto, markdown, git… it’s a lot!\n\nMotivation: internships and experience\nSome appreciation for learning “why”, not “what” to do\nTextbook helps anchor concepts (visual memory)\nLike being able to comment via giscus\n\nRelatively quick resonse time\nAdventurous students submit PRs to fix typos"
+    "text": "Student Reactions\n\nInitial frustration 😧 - syntax is hard in one language!\n\nPlus quarto, markdown, git… it’s a lot! 🧩\n\nMotivation: internships and experience 🧑‍💼 💼\nSome appreciation for learning “why”, not “what” to do\nTextbook helps anchor concepts (visual memory 👀🧠)\nLike being able to comment via giscus 🗨️\n\nRelatively quick resonse time\nAdventurous students submit PRs to fix typos"
   },
   {
     "objectID": "08-useR/index.html#tools-and-setup",
@@ -508,7 +508,7 @@
     "href": "08-useR/index.html#additional-chapters-updates",
     "title": "Teaching Statistical Computing with R and Python",
     "section": "Additional Chapters & Updates",
-    "text": "Additional Chapters & Updates\n\nInteractive Graphics\nDatabases\n“Big” data strategies\nAdd polars content to supplement pandas"
+    "text": "Additional Chapters & Updates\n\nInteractive Graphics beyond Shiny/Plotly\nDatabases 🦆 🏹\n“Big” data strategies\nAdd polars 🐻‍❄️ content to supplement pandas 🐼"
   },
   {
     "objectID": "08-useR/index.html#other-cool-stuff-id-love-to-do",
@@ -522,6 +522,6 @@
     "href": "08-useR/index.html#other-cool-stuff-id-love-to-get-to",
     "title": "Teaching Statistical Computing with R and Python",
     "section": "Other Cool Stuff I’d love to get to",
-    "text": "Other Cool Stuff I’d love to get to\n\n\nwebR and PyScript integration\n\nAllow direct interactivity instead of just showing code + solutions\n\nAudiobook format with quarto.audiobook (2024 GSoC Project)\nUsing JavaScript to create a TL;DR switch\n\nhide long explanations\nfocus on the basic info"
+    "text": "Other Cool Stuff I’d love to get to\n\n\nwebR and PyScript integration\n\nAllow direct interactivity instead of just showing code + solutions\n\nAudiobook format with quarto.audiobook (2024 GSoC Project)\nUsing JavaScript to create a TL;DR switch\n\nhide long explanations\nfocus on the basic info\nreduce info overload 😵‍💫 ️🏋️‍♀️"
   }
 ]
