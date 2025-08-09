@@ -9,6 +9,9 @@ format:
       in_header: ../libs/unl/header.html
     lib_dir: libs
     embed-resources: true
+    width: 1200
+    height: 675
+    margin: 0.05
 ---
 
 
@@ -43,7 +46,7 @@ Slides Link
 :::
 
 
-# [How to Accidentally<br/>Write A Textbook]{.emph} {.center}
+# [How to Accidentally Write A Textbook]{.emph} {.center}
 
 ![](bob-ross-painting.gif){fig-alt="A gif of Bob Ross painting and saying 'We don't make mistakes - we just have happy accidents." width="80%" fig-align="center"}
 
@@ -103,7 +106,7 @@ Graduate students will make up material that undergrads won't.
 :::
 
 
-## Summer 2022 - Quarto!
+## Summer 2022 - Quarto! {.smaller}
 
 - Plan: Combine the textbooks
   - multiple chapters/wk for grad students 📚
