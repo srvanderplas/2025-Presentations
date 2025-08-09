@@ -43,7 +43,7 @@ Slides Link
 :::
 
 
-# How to Accidentally<br/>Write A Textbook {.emph .center}
+# [How to Accidentally<br/>Write A Textbook]{.emph} {.center}
 
 ![](bob-ross-painting.gif){fig-alt="A gif of Bob Ross painting and saying 'We don't make mistakes - we just have happy accidents." width="80%" fig-align="center"}
 
@@ -287,14 +287,16 @@ myfun()
 [Overall, a reasonable success!]{.emph  .purple .fragment}
 
 
-# Teaching R and Python Together {.center}
+# [Teaching R and Python Together]{.emph} {.center}
 
 ## Why?
 
 - Students need to learn the concepts (look up syntax)
 - Data science/stat languages change! (Julia? JavaScript? Python? Ruby?)
-- Reading documentation and looking for help is a **critical skill**
-
+- Critical Skills:
+    - Reading & understanding documentation 
+    - Knowing how to look for help (google-fu)
+    
 ## How?
 
 - Assignments
@@ -321,5 +323,35 @@ Others focus on mastering one language + concepts
 
 - Textbook helps anchor concepts (visual memory)
 
-- Students like being able to comment via giscus
+- Like being able to comment via giscus
+    - Relatively quick resonse time
     - Adventurous students submit PRs to fix typos
+
+
+# [Roadmap]{.emph}
+
+## Additional Chapters & Updates
+
+- Interactive Graphics
+- Databases
+- "Big" data strategies
+
+- Add `polars` content to supplement `pandas`
+
+
+## Other Cool Stuff I'd love to get to
+
+::: incremental
+
+- `webR` and `PyScript` integration
+    - Allow direct interactivity instead of just showing code + solutions
+    
+- Audiobook format with [quarto.audiobook](https://github.com/qngyn/quarto.audiobook) (2024 GSoC Project)
+
+- Using JavaScript to create a TL;DR switch
+    - hide long explanations
+    - focus on the basic info
+
+:::
+
+# [Questions?]{.emph}

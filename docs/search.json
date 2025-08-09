@@ -445,7 +445,7 @@
     "href": "08-useR/index.html#why",
     "title": "Teaching Statistical Computing with R and Python",
     "section": "Why?",
-    "text": "Why?\n\nStudents need to learn the concepts (look up syntax)\nData science/stat languages change! (Julia? JavaScript? Python? Ruby?)\nReading documentation and looking for help is a critical skill"
+    "text": "Why?\n\nStudents need to learn the concepts (look up syntax)\nData science/stat languages change! (Julia? JavaScript? Python? Ruby?)\nCritical Skills:\n\nReading & understanding documentation\nKnowing how to look for help (google-fu)"
   },
   {
     "objectID": "08-useR/index.html#how",
@@ -459,7 +459,7 @@
     "href": "08-useR/index.html#student-reactions",
     "title": "Teaching Statistical Computing with R and Python",
     "section": "Student Reactions",
-    "text": "Student Reactions\n\nInitial frustration - syntax is hard in one language!\n\nPlus quarto, markdown, git… it’s a lot!\n\nMotivation: internships and experience\nSome appreciation for learning “why”, not “what” to do\nTextbook helps anchor concepts (visual memory)\nStudents like being able to comment via giscus\n\nAdventurous students submit PRs to fix typos"
+    "text": "Student Reactions\n\nInitial frustration - syntax is hard in one language!\n\nPlus quarto, markdown, git… it’s a lot!\n\nMotivation: internships and experience\nSome appreciation for learning “why”, not “what” to do\nTextbook helps anchor concepts (visual memory)\nLike being able to comment via giscus\n\nRelatively quick resonse time\nAdventurous students submit PRs to fix typos"
   },
   {
     "objectID": "08-useR/index.html#tools-and-setup",
@@ -488,5 +488,40 @@
     "title": "Teaching Statistical Computing with R and Python",
     "section": "Advanced Topics",
     "text": "Advanced Topics\n\nSimulation\nData Documentation 🚧\nWeb Scraping\nRecord-based Data and List Processing Strategies\nApplication Programming Interfaces\nWorking with PDFs\nInteractive Graphics 🚧\n\nIntroduction\nJavaScript Graphics\n\n“Big” Data Strategies 🚧\n\nDatabases\nArrow and Parquet\nMemory Handling\n\nSpatial Data 🚧"
+  },
+  {
+    "objectID": "08-useR/index.html#additional-chapters",
+    "href": "08-useR/index.html#additional-chapters",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Additional Chapters",
+    "text": "Additional Chapters\n\nInteractive Graphics\nDatabases\n“Big” data strategies"
+  },
+  {
+    "objectID": "08-useR/index.html#additional-possible-features",
+    "href": "08-useR/index.html#additional-possible-features",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Additional Possible Features",
+    "text": "Additional Possible Features\n\n\nwebR and PyScript integration\n\nAllow direct interactivity instead of just showing code + solutions\n\nAudiobook format with quarto.audiobook (2024 GSoC Project)\nUsing JavaScript to create a TL;DR switch\n\nhide long explanations\nfocus on the basic info"
+  },
+  {
+    "objectID": "08-useR/index.html#additional-chapters-updates",
+    "href": "08-useR/index.html#additional-chapters-updates",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Additional Chapters & Updates",
+    "text": "Additional Chapters & Updates\n\nInteractive Graphics\nDatabases\n“Big” data strategies\nAdd polars content to supplement pandas"
+  },
+  {
+    "objectID": "08-useR/index.html#other-cool-stuff-id-love-to-do",
+    "href": "08-useR/index.html#other-cool-stuff-id-love-to-do",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Other Cool Stuff I’d love to do",
+    "text": "Other Cool Stuff I’d love to do\n\n\nwebR and PyScript integration\n\nAllow direct interactivity instead of just showing code + solutions\n\nAudiobook format with quarto.audiobook (2024 GSoC Project)\nUsing JavaScript to create a TL;DR switch\n\nhide long explanations\nfocus on the basic info"
+  },
+  {
+    "objectID": "08-useR/index.html#other-cool-stuff-id-love-to-get-to",
+    "href": "08-useR/index.html#other-cool-stuff-id-love-to-get-to",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Other Cool Stuff I’d love to get to",
+    "text": "Other Cool Stuff I’d love to get to\n\n\nwebR and PyScript integration\n\nAllow direct interactivity instead of just showing code + solutions\n\nAudiobook format with quarto.audiobook (2024 GSoC Project)\nUsing JavaScript to create a TL;DR switch\n\nhide long explanations\nfocus on the basic info"
   }
 ]
