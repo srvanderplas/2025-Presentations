@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Presentations in 2025",
+    "section": "",
+    "text": "Hidden Multiple Comparisons Increase Forensic Error Rates\n\n\n\nSusan Vanderplas\n\n\nMar 26, 2025\n\n\n\n\n\n\nLocation\n\n\nNew Orleans, LA\n\n\n\n\n\nTopics\n\n\nforensics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Good Graphics\n\n\n\nSusan Vanderplas\n\n\nJul 2, 2025\n\n\n\n\n\n\nLocation\n\n\nLove Library South, Room 102\n\n\n\n\n\nTopics\n\n\ngraphics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHidden Multiple Comparisons Increase Forensic Error Rates\n\n\n\nSusan Vanderplas\n\n\nAug 4, 2025\n\n\n\n\n\n\nLocation\n\n\nNashville, TN\n\n\n\n\n\nTopics\n\n\nforensics\n\n\n\n\n\n\n\n\n\n\n\n\" class=\"thumbnail-image card-img\" style=\"height: 150px;\" &gt;\n\n\n\nTeaching Statistical Computing with R and Python\n\n\n\nSusan Vanderplas\n\n\nAug 9, 2025\n\n\n\n\n\n\nLocation\n\n\nRaleigh, NC\n\n\n\n\n\nTopics\n\n\nteaching,computing,graphics\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "08-JSM/index.html#outline",
     "href": "08-JSM/index.html#outline",
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
@@ -11,7 +18,7 @@
     "href": "08-JSM/index.html#motivation",
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
     "section": "Motivation",
-    "text": "Motivation\n\n\n\n\n\n\n\n\n\nSource\n\n\n\n\n\n\n\nSource"
+    "text": "Motivation\n\n\n\n\n\n\nSource\n\n\n\n\n\n\n\nSource"
   },
   {
     "objectID": "08-JSM/index.html#motivation-1",
@@ -25,7 +32,7 @@
     "href": "08-JSM/index.html#csi-wire-cuts",
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
     "section": "CSI: Wire Cuts",
-    "text": "CSI: Wire Cuts\n\n\n\n\n\n\n\n\n\nCAT5 crimper with wire cutter\n\n\n\n\n\n\n\nCut wires\n\n\n\n\n\n\n\n\n\nDigital scan of blade cut and wire cut"
+    "text": "CSI: Wire Cuts\n\n\n\n\n\n\nCAT5 crimper with wire cutter\n\n\n\n\n\n\n\nCut wires\n\n\n\n\n\n\n\n\n\nDigital scan of blade cut and wire cut"
   },
   {
     "objectID": "08-JSM/index.html#examiner-method",
@@ -102,14 +109,14 @@
     "href": "08-JSM/index.html#conclusions-1",
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
     "section": "Conclusions",
-    "text": "Conclusions\n\n\nAutomatic intelligence algorithms are not a good substitute for investigative work\nExample: Oregon\n\n3 firearms examiners for the state\nMost firearms evidence run through NIBIN first\nPromising leads forwarded to examiners for manual assessment\n\n\n\nThis is a setup that could generate false-positives by design!"
+    "text": "Conclusions\n\nAutomatic intelligence algorithms are not a good substitute for investigative work\nExample: Oregon\n\n3 firearms examiners for the state\nMost firearms evidence run through NIBIN first\nPromising leads forwarded to examiners for manual assessment\n\n\nThis is a setup that could generate false-positives by design!"
   },
   {
     "objectID": "08-JSM/index.html#conclusions-2",
     "href": "08-JSM/index.html#conclusions-2",
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
     "section": "Conclusions",
-    "text": "Conclusions\n\n\nExaminers should report and Defense Attorneys should require\n\noverall length or area of surfaces generated during the examination process (\\(b\\))\ntotal consecutive length/area of recovered evidence (\\(d\\))\n\nStudies relating length/area of comparison surface to error rates are essential!\n\nNo available black-box error rate for wire cuts\nStudies should be difficult, like casework!\n\nAny database search used at any stage of the process should be disclosed along with\n\n\\(N\\) items in the database used for comparison\nNumber of results returned as ‘similar’ (top 20? top 5?)\nProtocols for confirmatory assessment"
+    "text": "Conclusions\n\nExaminers should report and Defense Attorneys should require\n\noverall length or area of surfaces generated during the examination process (\\(b\\))\ntotal consecutive length/area of recovered evidence (\\(d\\))\n\nStudies relating length/area of comparison surface to error rates are essential!\n\nNo available black-box error rate for wire cuts\nStudies should be difficult, like casework!\n\nAny database search used at any stage of the process should be disclosed along with\n\n\\(N\\) items in the database used for comparison\nNumber of results returned as ‘similar’ (top 20? top 5?)\nProtocols for confirmatory assessment"
   },
   {
     "objectID": "08-JSM/index.html#caveats",
@@ -126,11 +133,130 @@
     "text": "Questions?\n\n\n\n    \nPNAS Paper Link\n\nThis work was partially funded by the Center for Statistics and Applications in Forensic Evidence (CSAFE) through Cooperative Agreements 70NANB15H176 and 70NANB20H019 between NIST and Iowa State University, which includes activities carried out at Carnegie Mellon University, Duke University, University of California Irvine, University of Virginia, West Virginia University, University of Pennsylvania, Swarthmore College and University of Nebraska, Lincoln."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Presentations in 2025",
-    "section": "",
-    "text": "Hidden Multiple Comparisons Increase Forensic Error Rates\n\n\n\nSusan Vanderplas\n\n\nMar 26, 2025\n\n\n\n\n\nLocation\n\n\nNew Orleans, LA\n\n\n\n\nTopics\n\n\nforensics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Good Graphics\n\n\n\nSusan Vanderplas\n\n\nJul 2, 2025\n\n\n\n\n\nLocation\n\n\nLove Library South, Room 102\n\n\n\n\nTopics\n\n\ngraphics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHidden Multiple Comparisons Increase Forensic Error Rates\n\n\n\nSusan Vanderplas\n\n\nAug 1, 2025\n\n\n\n\n\nLocation\n\n\nNashville, TN\n\n\n\n\nTopics\n\n\nforensics\n\n\n\n\n\n\n\n\n\n\n\n&lt;img loading=‘lazy’ src=“/08-useR/” class=“thumbnail-image card-img” style=“height: 150px;” &gt;\n\n\n\nTeaching Statistical Computing with R and Python\n\n\n\nSusan Vanderplas\n\n\nAug 9, 2025\n\n\n\n\n\nLocation\n\n\nRaleigh, NC\n\n\n\n\nTopics\n\n\nteaching,computing,graphics\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "08-useR/index.html#outline",
+    "href": "08-useR/index.html#outline",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Outline",
+    "text": "Outline\n\nHow to accidentally write a textbook\nDesign Decisions\nTeaching R and Python together\nConclusions\n\n\n\n\n\n\n    \nTextbook Link\n\n\n\n\n    \nSlides Link"
+  },
+  {
+    "objectID": "08-useR/index.html#in-the-beginning-spring-2020",
+    "href": "08-useR/index.html#in-the-beginning-spring-2020",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "In the beginning… Spring 2020 ⛈️🌏",
+    "text": "In the beginning… Spring 2020 ⛈️🌏\nTeaching Computing Tools for Statistics (Grad) in Fall\n\nI have to teach R AND SAS?\n\nOh 💩, I have to learn SAS\n\nFall 2020 uncertainty ☣️🦠😷\n\nFlipped classroom = more flexibility? 🤞\n\nOutside-class material: Videos or book(s)?\n\nWhat book is the SAS equivalent of R4DS?"
+  },
+  {
+    "objectID": "08-useR/index.html#spring-2021-22",
+    "href": "08-useR/index.html#spring-2021-22",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Spring 2021-22",
+    "text": "Spring 2021-22\n\nAssigned to develop new undergraduate computing courses in Spring 2022\n\nin R and Python 🐍\nOh 💩, I have to learn Python 😱\n\nNew book w/ grad text in undergrad-sized chunks\nAdd Python 😬, Remove SAS 😌\nMaintaining two textbooks is hard work!\n\n\nImmediately after that first semester, I learned I would be developing the computing sequence for our new undergraduate major.\nWe’d previously agreed that the undergraduates would need Python exposure – to take CS classes, but also to get internships and to be prepared for any possible direction the computing language du jour might go.\nThe only problem was I didn’t know Python… I’d done a few web scraping bits in it, but that was many years prior. Python had been on my to-learn list for about a decade at that point, so I suppose this was good motivation to finally learn it.\nI also needed to make far fewer assumptions about students computing background. Graduate students will make up material that undergrads won’t."
+  },
+  {
+    "objectID": "08-useR/index.html#summer-2022---quarto",
+    "href": "08-useR/index.html#summer-2022---quarto",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Summer 2022 - Quarto!",
+    "text": "Summer 2022 - Quarto!\n\nPlan: Combine the textbooks\n\nmultiple chapters/wk for grad students 📚\nsingle chapter/wk for undergrads 📗\nOnly maintain one version 🥱\n\nConvert to Quarto\nMake use of tabset panels 😍\n\n\n\nRPython\n\n\n\n# R code\n\n\n\n\n# Python code"
+  },
+  {
+    "objectID": "08-useR/index.html#since-summer-2022",
+    "href": "08-useR/index.html#since-summer-2022",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Since Summer 2022",
+    "text": "Since Summer 2022\n\nAdd chapters for additional undergrad computing courses\nUpdate chapters: clarity, package updates, etc.\nThis summer:\n\nTitle II compatibility checks\nGraduate student editing\nNew chapters - advanced stat computing"
+  },
+  {
+    "objectID": "08-useR/index.html#initial-philosophy",
+    "href": "08-useR/index.html#initial-philosophy",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Initial Philosophy",
+    "text": "Initial Philosophy\n\nInclude all of the bad jokes 😜, comics 💬, and digressions 🐇 from lectures\nGIFs can explain better than words (sometimes)\nShow the same techniques in both languages\n\nfocus on the operation, not syntax\n\nCenter importance of reproducibility\n(with SAS? 😅 SASMarkdown)\nOpinionated Tool Selection\n\n\nAttention-getting analogies like “git : Github :: porn : Pornhub” – e.g. not every git repository is on github, just like not all porn is on Pornhub.\nAlso XKCD comics, Alison Horst drawings, and stories from grad school about how knitr came to exist because of a disastrous lecture where Yihui was substituting for Heike Hofmann and absolutely nothing in Sweave would work correctly.\nI wanted to show the same techniques in both languages. This worked ok when I was teaching recoding and pivoting, but it was much more challenging to find IML functions for much of the rest of the tidyverse. Also, SAS’s philosophy is so different from R.\nWhen I started figuring out how to use SAS, I was most worried about losing my basic workflow of doing all of my course materials in markdown. Luckily, I found the SASmarkdown package, and it worked well enough that I could use it in bookdown.\nI also decided to be more opinionated about certain parts of the toolbox I was teaching students to use. I did not explicitly trash talk SAS in the book or in class, but I did make one exception. I decided to tell students directly that the best way to create good graphics in SAS is to export the data and make the chart in R. I stand by that claim."
+  },
+  {
+    "objectID": "08-useR/index.html#sketchy-diagrams",
+    "href": "08-useR/index.html#sketchy-diagrams",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Sketchy Diagrams",
+    "text": "Sketchy Diagrams"
+  },
+  {
+    "objectID": "08-useR/index.html#examples-and-activities",
+    "href": "08-useR/index.html#examples-and-activities",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Examples and Activities",
+    "text": "Examples and Activities\n\n\n\n\n\n\nGuess and Check\n\n\nWhat will this code output?\n\nPseudocodeSketchRPython\n\n\nmyfun = function() x + 1\n\nx = 14\n\nmyfun()\n\nx = 20\n\nmyfun()\n\n\n\n\n\n\nThe state of the global environment at the time the function is called (that is, the state of the calling environment) can change the results of the function\n\n\n\n\n\nmyfun &lt;- function() {\n  x + 1\n}\n\nx &lt;- 14\n\nmyfun()\n\n[1] 15\n\nx &lt;- 20\n\nmyfun()\n\n[1] 21\n\n\n\n\n\ndef myfun():\n  return x + 1\n\n\nx = 14\n\nmyfun()\n\n15\n\nx = 20\n\nmyfun()\n\n21"
+  },
+  {
+    "objectID": "08-useR/index.html#additional-reproducibility",
+    "href": "08-useR/index.html#additional-reproducibility",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Additional Reproducibility",
+    "text": "Additional Reproducibility\n\nWithout SAS, 👼👿\nbuild the textbook via GitHub Actions?\n\nLOTS of package deps in R and python 😱😵‍💫\nBetter reproducibility, more of a pain in the 🍑\nDependency caching is a lifesaver (most of the time)"
+  },
+  {
+    "objectID": "08-useR/index.html#information-overload",
+    "href": "08-useR/index.html#information-overload",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Information Overload 🤯🫣",
+    "text": "Information Overload 🤯🫣\n\nIt’s hard to strike a balance between\n\namount of code/output\ncentering important content"
+  },
+  {
+    "objectID": "08-useR/index.html#in-practice",
+    "href": "08-useR/index.html#in-practice",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "In Practice",
+    "text": "In Practice\n\nStudents with a non-English dominant language vastly preferred the textbook to lectures\n\nSometimes supplemented with R4DS translations ❤️\n\nSome spend way more time outside of class ⏲️\n\nBut, they would have been lost in a lecture-format class\n\nReading quizzes are essential to remind students to look at the book before class\n\nNot a universally successful motivator\n\n\nOverall, a reasonable success!"
+  },
+  {
+    "objectID": "08-useR/index.html#why",
+    "href": "08-useR/index.html#why",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Why?",
+    "text": "Why?\n\n🔬 Focus on concepts (look up syntax 🔍)\nData science/stat languages change! (Julia? JavaScript? Python? Ruby?)\nCritical Skills:\n\n📖 Reading & 🧠 understanding documentation\nKnowing how to look for help 🆘"
+  },
+  {
+    "objectID": "08-useR/index.html#how",
+    "href": "08-useR/index.html#how",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "How?",
+    "text": "How?\n\nAssignments\n\nbasic tasks in both languages 👶\nharder tasks 🧑 – pick a language\nBonus points (sometimes) for using both languages 🧑‍🦳\n\n2 Languages keep advanced students engaged\nOthers focus on mastering one language + concepts\nExams\n\nUse either language for code\nFocus on concepts/sketching/planning"
+  },
+  {
+    "objectID": "08-useR/index.html#student-reactions",
+    "href": "08-useR/index.html#student-reactions",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Student Reactions",
+    "text": "Student Reactions\n\nInitial frustration 😧 - syntax is hard in one language!\n\nPlus quarto, markdown, git… it’s a lot! 🧩\n\nMotivation: internships and experience 🧑‍💼 💼\nSome appreciation for learning “why”, not “what” to do\nTextbook helps anchor concepts (visual memory 👀🧠)\nLike being able to comment via giscus 🗨️\n\nRelatively quick resonse time\nAdventurous students submit PRs to fix typos"
+  },
+  {
+    "objectID": "08-useR/index.html#additional-chapters-updates",
+    "href": "08-useR/index.html#additional-chapters-updates",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Additional Chapters & Updates",
+    "text": "Additional Chapters & Updates\n\nInteractive Graphics beyond Shiny/Plotly\nDatabases 🦆 🏹\n“Big” data strategies\nAdd polars 🐻‍❄️ content to supplement pandas 🐼"
+  },
+  {
+    "objectID": "08-useR/index.html#other-cool-stuff-id-love-to-get-to",
+    "href": "08-useR/index.html#other-cool-stuff-id-love-to-get-to",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Other Cool Stuff I’d love to get to",
+    "text": "Other Cool Stuff I’d love to get to\n\nwebR and PyScript integration\n\nAllow direct interactivity instead of just showing code + solutions\n\nAudiobook format with quarto.audiobook (2024 GSoC Project)\nUsing JavaScript to create a TL;DR switch\n\nhide long explanations\nfocus on the basic info\nreduce info overload 😵‍💫 ️🏋️‍♀️"
+  },
+  {
+    "objectID": "08-useR/index.html#important-sources",
+    "href": "08-useR/index.html#important-sources",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Important Sources",
+    "text": "Important Sources\n\n\n\nAllison Horst’s amazing artwork\ncomics - XKCD and Julia Evans\n\nBooks\n\nR for Data Science\nAdvanced R\nGit and GitHub for the useR - Jenny Bryan\nPython for Everyone - Charles Severance\nPython for Data Analysis - Wes McKinney\nPython Data Science Handbook - Jake Vanderplas\n\n\n\n\n\nImage by Allison Horst. Source"
+  },
+  {
+    "objectID": "08-useR/index.html#questions",
+    "href": "08-useR/index.html#questions",
+    "title": "Teaching Statistical Computing with R and Python",
+    "section": "Questions?",
+    "text": "Questions?"
   },
   {
     "objectID": "07-REU-graphics/index.html#pie-chart-poll-results",
@@ -193,7 +319,7 @@
     "href": "07-REU-graphics/index.html#perceptual-grouping",
     "title": "Creating Good Graphics",
     "section": "Perceptual Grouping",
-    "text": "Perceptual Grouping\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 7: Is this a rabbit or a duck?\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nFigure 8: What do you see in this image?"
+    "text": "Perceptual Grouping\n\n\n\n\n\n\n\n\n\nFigure 7: Is this a rabbit or a duck?\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nFigure 8: What do you see in this image?"
   },
   {
     "objectID": "07-REU-graphics/index.html#perceptual-grouping-1",
@@ -207,7 +333,7 @@
     "href": "07-REU-graphics/index.html#grouping-in-charts",
     "title": "Creating Good Graphics",
     "section": "Grouping in Charts",
-    "text": "Grouping in Charts\n\n\n\n\n\n\n\n\n\nBar chart, showing 5 states\n\n\n\n\n\n\nThree versions of the same data that emphasize different aspects of the dataset."
+    "text": "Grouping in Charts\n\n\n\n\n\n\nBar chart, showing 5 states\n\n\n\n\n\n\nThree versions of the same data that emphasize different aspects of the dataset."
   },
   {
     "objectID": "07-REU-graphics/index.html#color",
@@ -245,41 +371,6 @@
     "text": "Accessibility\n\nProvide alt-text for your charts: describe the important information, the data source and how the information is represented\nUse larger text to make it easy for people with vis deficiencies to read\nSome fonts are easier for people with dyslexia to read – if you’re working with someone with dyslexia, ask them what font they prefer."
   },
   {
-    "objectID": "08-useR/index.html#in-the-beginning-spring-2020",
-    "href": "08-useR/index.html#in-the-beginning-spring-2020",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "In the beginning… Spring 2020 ⛈️🌏",
-    "text": "In the beginning… Spring 2020 ⛈️🌏\nTeaching Computing Tools for Statistics (Grad) in Fall\n\n\nI have to teach R AND SAS?\n\nOh 💩, I have to learn SAS\n\nFall 2020 uncertainty ☣️🦠😷\n\nFlipped classroom = more flexibility? 🤞\n\nOutside-class material: Videos or book(s)?\n\nWhat book is the SAS equivalent of R4DS?"
-  },
-  {
-    "objectID": "08-useR/index.html#initial-philosophy",
-    "href": "08-useR/index.html#initial-philosophy",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Initial Philosophy",
-    "text": "Initial Philosophy\n\n\nInclude all of the bad jokes 😜, comics 💬, and digressions 🐇 from lectures\nGIFs can explain better than words (sometimes)\nShow the same techniques in both languages\n\nfocus on the operation, not syntax\n\nCenter importance of reproducibility\n(with SAS? 😅 SASMarkdown)\nOpinionated Tool Selection\n\n\n\nAttention-getting analogies like “git : Github :: porn : Pornhub” – e.g. not every git repository is on github, just like not all porn is on Pornhub.\nAlso XKCD comics, Alison Horst drawings, and stories from grad school about how knitr came to exist because of a disastrous lecture where Yihui was substituting for Heike Hofmann and absolutely nothing in Sweave would work correctly.\nI wanted to show the same techniques in both languages. This worked ok when I was teaching recoding and pivoting, but it was much more challenging to find IML functions for much of the rest of the tidyverse. Also, SAS’s philosophy is so different from R.\nWhen I started figuring out how to use SAS, I was most worried about losing my basic workflow of doing all of my course materials in markdown. Luckily, I found the SASmarkdown package, and it worked well enough that I could use it in bookdown.\nI also decided to be more opinionated about certain parts of the toolbox I was teaching students to use. I did not explicitly trash talk SAS in the book or in class, but I did make one exception. I decided to tell students directly that the best way to create good graphics in SAS is to export the data and make the chart in R. I stand by that claim."
-  },
-  {
-    "objectID": "08-useR/index.html#in-practice",
-    "href": "08-useR/index.html#in-practice",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "In Practice",
-    "text": "In Practice\n\nStudents with a non-English dominant language vastly preferred the textbook to lectures\n\nSometimes supplemented with R4DS translations ❤️\n\nSome spend way more time outside of class ⏲️\n\nBut, they would have been lost in a lecture-format class\n\nReading quizzes are essential to remind students to look at the book before class\n\nNot a universally successful motivator\n\n\nOverall, a reasonable success!"
-  },
-  {
-    "objectID": "08-useR/index.html#spring-2021-22",
-    "href": "08-useR/index.html#spring-2021-22",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Spring 2021-22",
-    "text": "Spring 2021-22\n\nAssigned to develop new undergraduate computing courses in Spring 2022\n\nin R and Python 🐍\nOh 💩, I have to learn Python 😱\n\nNew book w/ grad text in undergrad-sized chunks\nAdd Python 😬, Remove SAS 😌\nMaintaining two textbooks is hard work!\n\n\nImmediately after that first semester, I learned I would be developing the computing sequence for our new undergraduate major.\nWe’d previously agreed that the undergraduates would need Python exposure – to take CS classes, but also to get internships and to be prepared for any possible direction the computing language du jour might go.\nThe only problem was I didn’t know Python… I’d done a few web scraping bits in it, but that was many years prior. Python had been on my to-learn list for about a decade at that point, so I suppose this was good motivation to finally learn it.\nI also needed to make far fewer assumptions about students computing background. Graduate students will make up material that undergrads won’t."
-  },
-  {
-    "objectID": "08-useR/index.html#summer-2022---quarto",
-    "href": "08-useR/index.html#summer-2022---quarto",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Summer 2022 - Quarto!",
-    "text": "Summer 2022 - Quarto!\n\nPlan: Combine the textbooks\n\nmultiple chapters/wk for grad students 📚\nsingle chapter/wk for undergrads 📗\nOnly maintain one version 🥱\n\nConvert to Quarto\nMake use of tabset panels 😍\n\n\n\nRPython\n\n\n\n# R code\n\n\n\n\n# Python code"
-  },
-  {
     "objectID": "03-ENAR/index.html#outline",
     "href": "03-ENAR/index.html#outline",
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
@@ -291,7 +382,7 @@
     "href": "03-ENAR/index.html#motivation",
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
     "section": "Motivation",
-    "text": "Motivation\n\n\n\n\n\n\n\n\n\nSource\n\n\n\n\n\n\n\nSource"
+    "text": "Motivation\n\n\n\n\n\n\nSource\n\n\n\n\n\n\n\nSource"
   },
   {
     "objectID": "03-ENAR/index.html#motivation-1",
@@ -305,7 +396,7 @@
     "href": "03-ENAR/index.html#csi-wire-cuts",
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
     "section": "CSI: Wire Cuts",
-    "text": "CSI: Wire Cuts\n\n\n\n\n\n\n\n\n\nCAT5 crimper with wire cutter\n\n\n\n\n\n\n\nCut wires\n\n\n\n\n\n\n\n\n\nDigital scan of blade cut and wire cut"
+    "text": "CSI: Wire Cuts\n\n\n\n\n\n\nCAT5 crimper with wire cutter\n\n\n\n\n\n\n\nCut wires\n\n\n\n\n\n\n\n\n\nDigital scan of blade cut and wire cut"
   },
   {
     "objectID": "03-ENAR/index.html#examiner-method",
@@ -390,152 +481,5 @@
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
     "section": "Questions?",
     "text": "Questions?\n\n\n\n    \nPNAS Paper Link\n\nThis work was partially funded by the Center for Statistics and Applications in Forensic Evidence (CSAFE) through Cooperative Agreements 70NANB15H176 and 70NANB20H019 between NIST and Iowa State University, which includes activities carried out at Carnegie Mellon University, Duke University, University of California Irvine, University of Virginia, West Virginia University, University of Pennsylvania, Swarthmore College and University of Nebraska, Lincoln."
-  },
-  {
-    "objectID": "08-useR/index.html#outline",
-    "href": "08-useR/index.html#outline",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Outline",
-    "text": "Outline\n\n\nHow to accidentally write a textbook\nDesign Decisions\nTeaching R and Python together\nConclusions\n\n\n\n\n\n\n\n\n\n\n    \nTextbook Link\n\n\n\n\n    \nSlides Link"
-  },
-  {
-    "objectID": "08-useR/index.html#since-summer-2022",
-    "href": "08-useR/index.html#since-summer-2022",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Since Summer 2022",
-    "text": "Since Summer 2022\n\nAdd chapters for additional undergrad computing courses\nUpdate chapters: clarity, package updates, etc.\nThis summer:\n\nTitle II compatibility checks\nGraduate student editing\nNew chapters - advanced stat computing"
-  },
-  {
-    "objectID": "08-useR/index.html#additional-considerations",
-    "href": "08-useR/index.html#additional-considerations",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Additional Considerations",
-    "text": "Additional Considerations\n\nWithout SAS, build the textbook via GitHub Actions?\n\nLOTS of package deps in R and python 😱😵‍💫\nBetter reproducibility, more of a pain in the 🍑\nDependency caching is a lifesaver (most of the time)\n\nBalance between amount of code/output and centering important content"
-  },
-  {
-    "objectID": "08-useR/index.html#information-overload",
-    "href": "08-useR/index.html#information-overload",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Information Overload 🤯🫣",
-    "text": "Information Overload 🤯🫣\n\nIt’s hard to strike a balance between\n\namount of code/output\ncentering important content"
-  },
-  {
-    "objectID": "08-useR/index.html#sketchy-diagrams",
-    "href": "08-useR/index.html#sketchy-diagrams",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Sketchy Diagrams",
-    "text": "Sketchy Diagrams"
-  },
-  {
-    "objectID": "08-useR/index.html#examples-and-activities",
-    "href": "08-useR/index.html#examples-and-activities",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Examples and Activities",
-    "text": "Examples and Activities\n\n\n\n\n\n\nGuess and Check\n\n\nWhat will this code output?\n\nPseudocodeSketchRPython\n\n\nmyfun = function() x + 1\n\nx = 14\n\nmyfun()\n\nx = 20\n\nmyfun()\n\n\n\n\n\n\nThe state of the global environment at the time the function is called (that is, the state of the calling environment) can change the results of the function\n\n\n\n\n\nmyfun &lt;- function() {\n  x + 1\n}\n\nx &lt;- 14\n\nmyfun()\n\n[1] 15\n\nx &lt;- 20\n\nmyfun()\n\n[1] 21\n\n\n\n\n\ndef myfun():\n  return x + 1\n\n\nx = 14\n\nmyfun()\n\n15\n\nx = 20\n\nmyfun()\n\n21"
-  },
-  {
-    "objectID": "08-useR/index.html#additional-reproducibility",
-    "href": "08-useR/index.html#additional-reproducibility",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Additional Reproducibility",
-    "text": "Additional Reproducibility\n\nWithout SAS, 👼👿\nbuild the textbook via GitHub Actions?\n\nLOTS of package deps in R and python 😱😵‍💫\nBetter reproducibility, more of a pain in the 🍑\nDependency caching is a lifesaver (most of the time)"
-  },
-  {
-    "objectID": "08-useR/index.html#why",
-    "href": "08-useR/index.html#why",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Why?",
-    "text": "Why?\n\n🔬 Focus on concepts (look up syntax 🔍)\nData science/stat languages change! (Julia? JavaScript? Python? Ruby?)\nCritical Skills:\n\n📖 Reading & 🧠 understanding documentation\nKnowing how to look for help 🆘"
-  },
-  {
-    "objectID": "08-useR/index.html#how",
-    "href": "08-useR/index.html#how",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "How?",
-    "text": "How?\n\nAssignments\n\nbasic tasks in both languages 👶\nharder tasks 🧑 – pick a language\nBonus points (sometimes) for using both languages 🧑‍🦳\n\n2 Languages keep advanced students engaged\nOthers focus on mastering one language + concepts\nExams\n\nUse either language for code\nFocus on concepts/sketching/planning"
-  },
-  {
-    "objectID": "08-useR/index.html#student-reactions",
-    "href": "08-useR/index.html#student-reactions",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Student Reactions",
-    "text": "Student Reactions\n\nInitial frustration 😧 - syntax is hard in one language!\n\nPlus quarto, markdown, git… it’s a lot! 🧩\n\nMotivation: internships and experience 🧑‍💼 💼\nSome appreciation for learning “why”, not “what” to do\nTextbook helps anchor concepts (visual memory 👀🧠)\nLike being able to comment via giscus 🗨️\n\nRelatively quick resonse time\nAdventurous students submit PRs to fix typos"
-  },
-  {
-    "objectID": "08-useR/index.html#tools-and-setup",
-    "href": "08-useR/index.html#tools-and-setup",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Tools and Setup",
-    "text": "Tools and Setup\n\nComputer Basics (a GenZ guide to understanding computers)\nhard drives, memory, file structure, local vs. global paths.\nSetting Up\nHow to install R, RStudio, Git, LaTeX, and Quarto\nRStudio’s Interface\nScripts and Notebooks and Terminals\nwhere to put code\nVersion Control\nA thin layer on top of Jenny Bryan’s amazing Git and Github for the useR.\nReproducibility and Professional Communcation\nA quick guide to markdown, quarto, knitr, and GitHub Pages"
-  },
-  {
-    "objectID": "08-useR/index.html#general-programming",
-    "href": "08-useR/index.html#general-programming",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "General Programming",
-    "text": "General Programming\n\nVariables and Basic Data Types\nMath + Logical Operators\n(using) Functions, Packages, and Environments\nData Structures\nMatrix Math\nControl Structures\nWriting Functions\nDebugging\nProgramming With Data"
-  },
-  {
-    "objectID": "08-useR/index.html#data-wrangling",
-    "href": "08-useR/index.html#data-wrangling",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Data Wrangling",
-    "text": "Data Wrangling\n\n\n\nData Input\nData Visualization\n\nBasics\nExploratory Data Analysis\nThe Grammar of Graphics\nCreating Good Charts\n\nData Cleaning\n\n\n\nWorking with Strings\nReshaping Data\n\nNormal Forms of Data\n\nJoining Data\nDates and Times\nFunctional Programming"
-  },
-  {
-    "objectID": "08-useR/index.html#advanced-topics",
-    "href": "08-useR/index.html#advanced-topics",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Advanced Topics",
-    "text": "Advanced Topics\n\nSimulation\nData Documentation 🚧\nWeb Scraping\nRecord-based Data and List Processing Strategies\nApplication Programming Interfaces\nWorking with PDFs\nInteractive Graphics 🚧\n\nIntroduction\nJavaScript Graphics\n\n“Big” Data Strategies 🚧\n\nDatabases\nArrow and Parquet\nMemory Handling\n\nSpatial Data 🚧"
-  },
-  {
-    "objectID": "08-useR/index.html#additional-chapters",
-    "href": "08-useR/index.html#additional-chapters",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Additional Chapters",
-    "text": "Additional Chapters\n\nInteractive Graphics\nDatabases\n“Big” data strategies"
-  },
-  {
-    "objectID": "08-useR/index.html#additional-possible-features",
-    "href": "08-useR/index.html#additional-possible-features",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Additional Possible Features",
-    "text": "Additional Possible Features\n\n\nwebR and PyScript integration\n\nAllow direct interactivity instead of just showing code + solutions\n\nAudiobook format with quarto.audiobook (2024 GSoC Project)\nUsing JavaScript to create a TL;DR switch\n\nhide long explanations\nfocus on the basic info"
-  },
-  {
-    "objectID": "08-useR/index.html#additional-chapters-updates",
-    "href": "08-useR/index.html#additional-chapters-updates",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Additional Chapters & Updates",
-    "text": "Additional Chapters & Updates\n\nInteractive Graphics beyond Shiny/Plotly\nDatabases 🦆 🏹\n“Big” data strategies\nAdd polars 🐻‍❄️ content to supplement pandas 🐼"
-  },
-  {
-    "objectID": "08-useR/index.html#other-cool-stuff-id-love-to-do",
-    "href": "08-useR/index.html#other-cool-stuff-id-love-to-do",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Other Cool Stuff I’d love to do",
-    "text": "Other Cool Stuff I’d love to do\n\n\nwebR and PyScript integration\n\nAllow direct interactivity instead of just showing code + solutions\n\nAudiobook format with quarto.audiobook (2024 GSoC Project)\nUsing JavaScript to create a TL;DR switch\n\nhide long explanations\nfocus on the basic info"
-  },
-  {
-    "objectID": "08-useR/index.html#other-cool-stuff-id-love-to-get-to",
-    "href": "08-useR/index.html#other-cool-stuff-id-love-to-get-to",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Other Cool Stuff I’d love to get to",
-    "text": "Other Cool Stuff I’d love to get to\n\n\nwebR and PyScript integration\n\nAllow direct interactivity instead of just showing code + solutions\n\nAudiobook format with quarto.audiobook (2024 GSoC Project)\nUsing JavaScript to create a TL;DR switch\n\nhide long explanations\nfocus on the basic info\nreduce info overload 😵‍💫 ️🏋️‍♀️"
-  },
-  {
-    "objectID": "08-useR/index.html#important-sources",
-    "href": "08-useR/index.html#important-sources",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Important Sources",
-    "text": "Important Sources\n\n\n\n\nAllison Horst’s amazing artwork\ncomics - XKCD and Julia Evans\n\nBooks\n\nR for Data Science\nAdvanced R\nGit and GitHub for the useR - Jenny Bryan\nPython for Everyone - Charles Severance\nPython for Data Analysis - Wes McKinney\nPython Data Science Handbook - Jake Vanderplas\n\n\n\n\n\n\nImage by Allison Horst. Source"
-  },
-  {
-    "objectID": "08-useR/index.html#questions",
-    "href": "08-useR/index.html#questions",
-    "title": "Teaching Statistical Computing with R and Python",
-    "section": "Questions?",
-    "text": "Questions?"
   }
 ]
