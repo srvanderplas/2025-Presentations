@@ -42,13 +42,6 @@
     "text": "Why Graphics Matter\nGraphics are a form of external cognition that allow us to think about the data rather than the chart.\nThat is, graphics are a tool to make it easier for us to think about what the data means.\nGood graphics take advantage of how the brain works, leveraging\n\npreattentive processing\nperceptual grouping\nawareness of visual limitations\n\nGood graphics also depend on the data: the chart type should be chosen based on the types of variables you want to display, the amount of data you have, and the results you want to highlight."
   },
   {
-    "objectID": "11-UCARE-graphics/index.html#example-hertzsprung-russell-diagram",
-    "href": "11-UCARE-graphics/index.html#example-hertzsprung-russell-diagram",
-    "title": "Creating Good Graphics",
-    "section": "Example: Hertzsprung Russell Diagram",
-    "text": "Example: Hertzsprung Russell Diagram\n\n\n\n\n\nThe Hertzsprung Russell diagram. Discovered independently by Ejnar Hertzsprung (1873–1967) and Henry Norris Russell (1877–1957). The diagram plots the color index of the star against the brightness (absolute magnitude) of the star. As a result, it is possible to discern that these two variables are related and change together over a star’s life cycle: a hypothesis that only came to be because of this chart.\n\n\n\n\nI’ve used data from the HYG Database to generate this chart. Only stars within 500 AU are shown.\n\nJohn Tukey, a famous statistician often considered the father of statistical graphics, wrote in Exploratory Data Analysis (1977):\n\nThe greatest value of a picture is when it forces us to notice what we never expected to see.\n\n\nWhat variables are mapped to the following chart dimensions?\n\nX location\nY location\ncolor\n\nWhat other information is present on the chart that is not specifically a data value?\nWhat does this chart do well?\nWhat design features “work”?\nWhat don’t you like?"
-  },
-  {
     "objectID": "11-UCARE-graphics/index.html#preattentive-perception",
     "href": "11-UCARE-graphics/index.html#preattentive-perception",
     "title": "Creating Good Graphics",
@@ -91,18 +84,32 @@
     "text": "Color\n\n\n\n10% of XY and 0.2% of XX have color deficiency\nAvoid rainbow color schemes\n\nperceptually nonuniform\nunequal perception of different colors\n(we see more shades of green)\n=&gt; misleading idea of distance\navoid “stoplight” color schemes\n\n\n\n\n\n\nThe viridis palettes are rainbow-ish, perceptually uniform, and in theory relatively colorblind friendly."
   },
   {
+    "objectID": "11-UCARE-graphics/index.html#color-strategies",
+    "href": "11-UCARE-graphics/index.html#color-strategies",
+    "title": "Creating Good Graphics",
+    "section": "Color Strategies",
+    "text": "Color Strategies\n\n\n\ndouble encoding (color + shape or linetype)\nmake it work with black and white printers"
+  },
+  {
+    "objectID": "11-UCARE-graphics/index.html#color-strategies-1",
+    "href": "11-UCARE-graphics/index.html#color-strategies-1",
+    "title": "Creating Good Graphics",
+    "section": "Color Strategies",
+    "text": "Color Strategies\n\n\n\ndouble encoding (color + shape or linetype)\nmake it work with black and white printers\nuse monochromatic (single color) gradients where possible\n\n\n\n\n\nColorBrewer sequential palettes"
+  },
+  {
+    "objectID": "11-UCARE-graphics/index.html#color-strategies-2",
+    "href": "11-UCARE-graphics/index.html#color-strategies-2",
+    "title": "Creating Good Graphics",
+    "section": "Color Strategies",
+    "text": "Color Strategies\n\n\n\nmake it work with black and white printers\nuse monochromatic (single color) gradients where possible\nif you use bidirectional scale (e.g. blue to red), go through white or light yellow\n\n\n\n\n\nColorBrewer bidirectional palettes"
+  },
+  {
     "objectID": "11-UCARE-graphics/index.html#color-1",
     "href": "11-UCARE-graphics/index.html#color-1",
     "title": "Creating Good Graphics",
     "section": "Color",
     "text": "Color\n\n“Meaning” of colors\n\nimplicit understanding – easier to read/remember\ncold = blue, red = hot\npolitical parties\n\nColor meanings are culturally dependent\nAvoid pink = female, blue = male"
-  },
-  {
-    "objectID": "11-UCARE-graphics/index.html#color-2",
-    "href": "11-UCARE-graphics/index.html#color-2",
-    "title": "Creating Good Graphics",
-    "section": "Color",
-    "text": "Color\n\nBe conscious of what some colors “mean” to use implicit understandings\nAvoid pink = female, blue = male"
   },
   {
     "objectID": "11-UCARE-graphics/index.html#working-memory",
@@ -137,7 +144,7 @@
     "href": "index.html",
     "title": "Presentations in 2025",
     "section": "",
-    "text": "Hidden Multiple Comparisons Increase Forensic Error Rates\n\n\n\nSusan Vanderplas\n\n\nMar 26, 2025\n\n\n\n\n\n\nLocation\n\n\nNew Orleans, LA\n\n\n\n\n\nTopics\n\n\nforensics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Good Graphics\n\n\n\nSusan Vanderplas\n\n\nJul 2, 2025\n\n\n\n\n\n\nLocation\n\n\nLove Library South, Room 102\n\n\n\n\n\nTopics\n\n\ngraphics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHidden Multiple Comparisons Increase Forensic Error Rates\n\n\n\nSusan Vanderplas\n\n\nAug 1, 2025\n\n\n\n\n\n\nLocation\n\n\nNashville, TN\n\n\n\n\n\nTopics\n\n\nforensics\n\n\n\n\n\n\n\n\n\n\n\n\" class=\"thumbnail-image card-img\" style=\"height: 150px;\" &gt;\n\n\n\nTeaching Statistical Computing with R and Python\n\n\n\nSusan Vanderplas\n\n\nAug 9, 2025\n\n\n\n\n\n\nLocation\n\n\nRaleigh, NC\n\n\n\n\n\nTopics\n\n\nteaching,computing,graphics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Good Graphics\n\n\n\nSusan Vanderplas\n\n\nNov 19, 2025\n\n\n\n\n\n\nLocation\n\n\nUbuntu Room, Gaughn Multicultural Center\n\n\n\n\n\nTopics\n\n\ngraphics\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Hidden Multiple Comparisons Increase Forensic Error Rates\n\n\n\nSusan Vanderplas\n\n\nMar 26, 2025\n\n\n\n\n\n\nLocation\n\n\nNew Orleans, LA\n\n\n\n\n\nTopics\n\n\nforensics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Good Graphics\n\n\n\nSusan Vanderplas\n\n\nJul 2, 2025\n\n\n\n\n\n\nLocation\n\n\nLove Library South, Room 102\n\n\n\n\n\nTopics\n\n\ngraphics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHidden Multiple Comparisons Increase Forensic Error Rates\n\n\n\nSusan Vanderplas\n\n\nAug 4, 2025\n\n\n\n\n\n\nLocation\n\n\nNashville, TN\n\n\n\n\n\nTopics\n\n\nforensics\n\n\n\n\n\n\n\n\n\n\n\n\" class=\"thumbnail-image card-img\" style=\"height: 150px;\" &gt;\n\n\n\nTeaching Statistical Computing with R and Python\n\n\n\nSusan Vanderplas\n\n\nAug 9, 2025\n\n\n\n\n\n\nLocation\n\n\nRaleigh, NC\n\n\n\n\n\nTopics\n\n\nteaching,computing,graphics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Good Graphics\n\n\n\nSusan Vanderplas\n\n\nNov 19, 2025\n\n\n\n\n\n\nLocation\n\n\nUbuntu Room, Gaughn Multicultural Center\n\n\n\n\n\nTopics\n\n\ngraphics\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "08-useR/index.html#outline",
@@ -614,40 +621,5 @@
     "title": "Hidden Multiple Comparisons Increase Forensic Error Rates",
     "section": "Questions?",
     "text": "Questions?\n\n\n\n    \nPNAS Paper Link\n\nThis work was partially funded by the Center for Statistics and Applications in Forensic Evidence (CSAFE) through Cooperative Agreements 70NANB15H176 and 70NANB20H019 between NIST and Iowa State University, which includes activities carried out at Carnegie Mellon University, Duke University, University of California Irvine, University of Virginia, West Virginia University, University of Pennsylvania, Swarthmore College and University of Nebraska, Lincoln."
-  },
-  {
-    "objectID": "11-UCARE-graphics/index.html#grouping-in-charts-1",
-    "href": "11-UCARE-graphics/index.html#grouping-in-charts-1",
-    "title": "Creating Good Graphics",
-    "section": "Grouping in Charts",
-    "text": "Grouping in Charts\n\n\n\n\n\nLine chart, with one state per line"
-  },
-  {
-    "objectID": "11-UCARE-graphics/index.html#grouping-in-charts-2",
-    "href": "11-UCARE-graphics/index.html#grouping-in-charts-2",
-    "title": "Creating Good Graphics",
-    "section": "Grouping in Charts",
-    "text": "Grouping in Charts\n\n\n\n\n\nBox plot by year, all 50 states"
-  },
-  {
-    "objectID": "11-UCARE-graphics/index.html#color-strategies",
-    "href": "11-UCARE-graphics/index.html#color-strategies",
-    "title": "Creating Good Graphics",
-    "section": "Color Strategies",
-    "text": "Color Strategies\n\n\n\ndouble encoding (color + shape or linetype)\nmake it work with black and white printers"
-  },
-  {
-    "objectID": "11-UCARE-graphics/index.html#color-strategies-1",
-    "href": "11-UCARE-graphics/index.html#color-strategies-1",
-    "title": "Creating Good Graphics",
-    "section": "Color Strategies",
-    "text": "Color Strategies\n\n\n\ndouble encoding (color + shape or linetype)\nmake it work with black and white printers\nuse monochromatic (single color) gradients where possible\n\n\n\n\n\nColorBrewer sequential palettes"
-  },
-  {
-    "objectID": "11-UCARE-graphics/index.html#color-strategies-2",
-    "href": "11-UCARE-graphics/index.html#color-strategies-2",
-    "title": "Creating Good Graphics",
-    "section": "Color Strategies",
-    "text": "Color Strategies\n\n\n\nmake it work with black and white printers\nuse monochromatic (single color) gradients where possible\nif you use bidirectional scale (e.g. blue to red), go through white or light yellow\n\n\n\n\n\nColorBrewer bidirectional palettes"
   }
 ]
