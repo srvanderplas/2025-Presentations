@@ -1,0 +1,13 @@
+title: "Creating Good Graphics"
+author: "Susan Vanderplas"
+date: 2025-11-19
+from: markdown+emoji
+location: Ubuntu Room, Gaughn Multicultural Center
+abstract: |
+  Let's talk about how to create good charts and graphics!
+image: stand-your-ground.png
+
+talk-type: ['seminar']
+# One or more of seminar, web, invited, contributed, other
+
+keywords: ['graphics']
